@@ -1,7 +1,10 @@
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
 const S = {
-  container: styled.div`
+  container: styled(NavLink)`
+    display: block;
+    color: black;
     font-family: 'Lora', serif;
     text-align: center;
     font-style: normal;

@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
 const S = {
@@ -14,26 +15,8 @@ const S = {
     max-width: 1400px;
     display: flex;
     margin: 0 auto;
-
-    & > li {
-      border-left: 1px solid black;
-      padding: 16px 50px;
-      position: relative;
-      transition: 0.3s;
-    }
-    & > li:hover {
-      transition: 0.3s;
-      background: #c95b5b;
-      cursor: pointer;
-    }
-    & > li:last-child {
-      border-right: 1px solid black;
-    }
-
-    & > li:hover > ul {
-      display: inherit;
-      transition: 0.3s;
-    }
+    border-right: 1px solid black;
+    border-left: 1px solid black;
   `,
   search: styled.input`
     font-family: 'Comfortaa', cursive;
@@ -51,6 +34,19 @@ const S = {
     }
     &:focus {
       outline: none;
+    }
+  `,
+  link: styled(NavLink)`
+    display: inline-block;
+    color: black;
+    border-left: 1px solid black;
+    padding: 16px 50px;
+    position: relative;
+    transition: 0.3s;
+    &:hover {
+      transition: 0.3s;
+      background: #c95b5b;
+      cursor: pointer;
     }
   `,
 }

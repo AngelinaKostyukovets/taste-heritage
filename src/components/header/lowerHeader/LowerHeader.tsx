@@ -8,6 +8,15 @@ export default function LowerHeader() {
         <MenuDropdown
           nameMenu="Типы блюд"
           list={['второе', 'закуски', 'салаты', 'десерты', 'выпечка', 'супы']}
+          menuAdress="/typeDishes"
+          listAdresses={[
+            '/typeDishes/main',
+            '/typeDishes/appetizer',
+            '/typeDishes/salads',
+            '/typeDishes/desserts',
+            '/typeDishes/bakery',
+            '/typeDishes/soups',
+          ]}
         />
         <MenuDropdown
           nameMenu="Блюда из"
@@ -20,12 +29,26 @@ export default function LowerHeader() {
             'творог',
             'яйца',
           ]}
+          menuAdress="/dishes"
+          listAdresses={[
+            '/dishes/meat',
+            '/dishes/poultry',
+            '/dishes/fish',
+            '/dishes/vegetables',
+            '/dishes/dough',
+            '/dishes/curd',
+            '/dishes/eggs',
+          ]}
         />
         <li style={{ padding: '0', flexGrow: '1' }}>
           <S.search type="text" placeholder="Поиск" />
         </li>
-        <li>Войти</li>
-        <li>Регистрация</li>
+        <li>
+          <S.link to="/login">Войти</S.link>
+        </li>
+        <li>
+          <S.link to="signUp">Регистрация</S.link>
+        </li>
       </S.menu>
     </S.container>
   )
