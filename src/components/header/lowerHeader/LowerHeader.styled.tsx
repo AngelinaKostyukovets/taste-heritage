@@ -38,7 +38,7 @@ const S = {
   `,
   link: styled(NavLink)`
     display: inline-block;
-    color: black;
+    color: ${({ theme }) => theme.colors.text};
     border-left: 1px solid black;
     padding: 16px 50px;
     position: relative;

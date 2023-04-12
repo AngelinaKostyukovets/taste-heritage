@@ -12,7 +12,7 @@ const S = {
     border-bottom: none;
   `,
   linkDropdown: styled(NavLink)`
-    color: black;
+    color: ${({ theme }) => theme.colors.text};
     display: inline-block;
     width: 100%;
     padding: 16px 0;
