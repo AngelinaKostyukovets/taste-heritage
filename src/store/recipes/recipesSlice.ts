@@ -35,18 +35,15 @@ const recipesSlice = createSlice({
     builder.addCase(getRecipesList.pending, (state) => {
       state.loading = true
       state.error = undefined
-      state.recipes = []
-      console.log(state)
+      // state.recipes = []
     })
     builder.addCase(getRecipesList.rejected, (state, { payload }) => {
       state.loading = false
       state.error = payload
-      console.log('error')
     })
     builder.addCase(getRecipesList.fulfilled, (state, { payload }) => {
       state.loading = false
       state.recipes = payload
-      console.log('work')
     })
   },
 })

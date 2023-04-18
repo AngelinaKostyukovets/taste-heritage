@@ -5,11 +5,13 @@ const S = {
   menuDropdown: styled.ul`
     display: none;
     position: absolute;
+    z-index: 2;
     top: 100%;
     left: 0;
     width: 100%;
     border: 1px solid black;
     border-bottom: none;
+    background-color: ${({ theme }) => theme.colors.background};
   `,
   linkDropdown: styled(NavLink)`
     color: ${({ theme }) => theme.colors.text};
