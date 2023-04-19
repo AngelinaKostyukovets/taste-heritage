@@ -1,3 +1,4 @@
+import { DownOutlined } from '@ant-design/icons'
 import S from './MenuDropdown.styled'
 
 interface MenuDropdownProps {
@@ -17,6 +18,9 @@ export default function MenuDropdown({
     <li>
       <S.linkDropdown className="menu-item" to={`${menuAdress}`}>
         {nameMenu}
+        <S.space>
+          <DownOutlined />
+        </S.space>
         <S.menuDropdown>
           {list.map((item, index) => (
             <li>

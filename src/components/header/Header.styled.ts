@@ -12,9 +12,6 @@ const S = {
     font-size: 70px;
     line-height: 90px;
     padding: 15px 0;
-    span {
-      color: #ff0000;
-    }
   `,
 }
 

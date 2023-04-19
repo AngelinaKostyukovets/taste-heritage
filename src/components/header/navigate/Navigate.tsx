@@ -1,7 +1,7 @@
-import S from './LowerHeader.styled'
+import S from './Navigate.styled'
 import MenuDropdown from './menuDropdown/MenuDropdown'
 
-export default function LowerHeader() {
+export default function Navigate() {
   return (
     <S.container>
       <S.menu>

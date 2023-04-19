@@ -1,3 +1,4 @@
+import { Space } from 'antd'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -5,11 +6,13 @@ const S = {
   menuDropdown: styled.ul`
     display: none;
     position: absolute;
+    z-index: 2;
     top: 100%;
     left: 0;
     width: 100%;
     border: 1px solid black;
     border-bottom: none;
+    background-color: ${({ theme }) => theme.colors.background};
   `,
   linkDropdown: styled(NavLink)`
     color: ${({ theme }) => theme.colors.text};
@@ -33,6 +36,9 @@ const S = {
       display: inherit;
       transition: 0.3s;
     }
+  `,
+  space: styled(Space)`
+    padding-left: 10px;
   `,
 }
 
