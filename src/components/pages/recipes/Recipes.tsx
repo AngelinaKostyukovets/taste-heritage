@@ -1,27 +1,25 @@
-import { useEffect } from 'react'
-import { useAppDispatch, useAppSelector } from '../../../store/store'
-import { recipesActions } from '../../../store/recipes/recipesSlice'
+import { useAppSelector } from '../../../store/store'
 import RecipesCard from './card/RecipesCard'
 import S from './Recipes.styled'
+import RedTitle from '../../redTitle/RedTitle'
+import RecipesFilter from './filter/RecipesFilter'
 
 interface RecipesProps {
-  title: string
+  redTitle: string
+  otherTitle?: string
 }
 
-export default function Recipes({ title }: RecipesProps) {
-  const dispatch = useAppDispatch()
+export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
   const recipes = useAppSelector((state) => state.recipes.recipes)
-
-  useEffect(() => {
-    dispatch(recipesActions.getRecipesList())
-  }, [])
 
   return (
     <S.container>
-      <S.title>{title}</S.title>
+      <S.title>
+        <RedTitle redText={redTitle} otherText={otherTitle} />
+      </S.title>
       <S.sortContainer>
         <div>{recipes.length} рецептов</div>
-        <div>Релевантные</div>
+        <RecipesFilter />
       </S.sortContainer>
       <S.cards>
         {recipes.map((recipe) => (

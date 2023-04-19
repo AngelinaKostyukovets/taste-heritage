@@ -1,20 +1,24 @@
 import styled from 'styled-components'
+import { styles } from '../../globalStyle'
 
 const S = {
   container: styled.div`
-    max-width: 1400px;
-    margin: 0 auto;
+    ${styles.container};
   `,
   title: styled.h2`
-    font-family: 'Comfortaa', cursive;
-    font-style: normal;
-    font-weight: 400;
+    ${styles.comfortaa};
     font-size: 46px;
     line-height: 51px;
+    padding-bottom: 20px;
   `,
   sortContainer: styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    ${styles.comfortaa};
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 30px;
   `,
   cards: styled.div`
     display: grid;

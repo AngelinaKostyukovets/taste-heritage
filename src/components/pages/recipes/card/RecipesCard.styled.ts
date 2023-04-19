@@ -1,43 +1,50 @@
 import styled from 'styled-components'
+import { Space } from 'antd'
+import { styles } from '../../../globalStyle'
 
 const S = {
   container: styled.div`
     max-width: 446px;
-    border-radius: 24px;
+    border-radius: ${styles.radius};
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
   `,
   image: styled.div`
     & img {
       width: 100%;
-      border-radius: 24px 24px 0px 0px;
+      border-radius: ${styles.radius} ${styles.radius} 0px 0px;
     }
   `,
   textContent: styled.div`
-    padding: 20px 25px;
+    padding: 20px 25px 60px;
   `,
   describtion: styled.p`
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    ${styles.roboto}
     font-size: 14px;
     line-height: 16px;
   `,
   category: styled.p`
-    font-family: 'Comfortaa', cursive;
-    font-style: normal;
-    font-weight: 400;
+    ${styles.comfortaa};
     font-size: 14px;
     line-height: 16px;
     color: #ff0000;
     padding-bottom: 15px;
   `,
   title: styled.h3`
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    ${styles.montserrat}
     font-size: 24px;
     line-height: 22px;
     padding-bottom: 15px;
+  `,
+  space: styled(Space)`
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+    font-size: 18px;
+  `,
+  number: styled.div`
+    font-size: 16px;
+    padding-right: 15px;
   `,
 }
 

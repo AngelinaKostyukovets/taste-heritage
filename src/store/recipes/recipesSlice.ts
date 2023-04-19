@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import recipesApi from '../../api/recipes/recipesApi'
-import { RecipesType } from '../../types/recipesTypes'
+import { RecipesFilterType, RecipesType } from '../../types/recipesTypes'
 
 interface RecipesStateType {
   recipes: Array<RecipesType>
@@ -16,11 +16,11 @@ const initialState: RecipesStateType = {
 
 const getRecipesList = createAsyncThunk<
   Array<RecipesType>,
-  void,
+  RecipesFilterType,
   { rejectValue: string }
 >('recipes/getRecipesList', async (data, thunksApi) => {
   try {
-    const response = await recipesApi.getRecipesList()
+    const response = await recipesApi.getRecipesList(data)
     return response.data
   } catch {
     return thunksApi.rejectWithValue('Server error')

@@ -1,3 +1,4 @@
+import { Space } from 'antd'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -35,6 +36,9 @@ const S = {
       display: inherit;
       transition: 0.3s;
     }
+  `,
+  space: styled(Space)`
+    padding-left: 10px;
   `,
 }
 

@@ -1,3 +1,4 @@
+import { CommentOutlined, HeartOutlined } from '@ant-design/icons'
 import S from './RecipesCard.styled'
 
 interface RecipesCardProps {
@@ -28,10 +29,12 @@ export default function RecipesCard({
         <S.category>{needCategory}</S.category>
         <S.title>{name}</S.title>
         <S.describtion>{description}</S.describtion>
-        <div>
-          <div>{likes}</div>
-          <div>{comments}</div>
-        </div>
+        <S.space>
+          <HeartOutlined />
+          <S.number>{likes}</S.number>
+          <CommentOutlined />
+          <S.number>{comments}</S.number>
+        </S.space>
       </S.textContent>
     </S.container>
   )

@@ -24,3 +24,7 @@ export interface RecipesType {
   ingredients: Array<string>
   recipe: Array<RecipeType>
 }
+
+export interface RecipesFilterType {
+  sortRecipes: string
+}

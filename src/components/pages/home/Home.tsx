@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <Recipes title="Кулинарные рецепты" />
+      <Recipes redTitle="Кулинарные" otherTitle="рецепты" />
     </>
   )
 }

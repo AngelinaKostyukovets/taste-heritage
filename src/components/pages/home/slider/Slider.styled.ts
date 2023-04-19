@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Carousel } from 'antd'
+import { styles } from '../../../globalStyle'
 
 const S = {
   container: styled(Carousel)`
@@ -9,7 +10,7 @@ const S = {
   content: styled.div`
     position: relative;
     height: 500px;
-    border-radius: 24px;
+    border-radius: ${styles.radius};
     overflow: hidden;
   `,
   textContent: styled.div`
@@ -24,17 +25,13 @@ const S = {
     padding: 150px 25%;
     text-align: center;
     & > h3 {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 600;
+      ${styles.montserrat}
       font-size: 30px;
       line-height: 30px;
       padding-bottom: 15px;
     }
     & > p {
-      font-family: 'Roboto', sans-serif;
-      font-style: normal;
-      font-weight: 300;
+      ${styles.roboto}
       font-size: 20px;
       line-height: 30px;
     }
