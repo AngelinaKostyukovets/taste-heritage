@@ -12,7 +12,8 @@ interface RecipeType {
 export interface RecipesType {
   id: number
   name: string
-  category: Array<string>
+  typeDish: string
+  productDish: string
   image_url: string
   description: string
   time: string
@@ -27,4 +28,9 @@ export interface RecipesType {
 
 export interface RecipesFilterType {
   sortRecipes: string
+  search?: string
+  limit?: number
+  page?: number
+  typeDish?: string
+  productDish?: string
 }

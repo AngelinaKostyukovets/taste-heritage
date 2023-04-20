@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Pagination } from 'antd'
 import { styles } from '../../globalStyle'
 
 const S = {
@@ -25,6 +26,11 @@ const S = {
     grid-template-columns: repeat(auto-fit, max(446px));
     grid-column-gap: 30px;
     grid-row-gap: 20px;
+    padding-bottom: 40px;
+  `,
+  pagination: styled(Pagination)`
+    text-align: center;
+    padding-bottom: 50px;
   `,
 }
 

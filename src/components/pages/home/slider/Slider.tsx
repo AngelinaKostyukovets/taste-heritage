@@ -10,8 +10,8 @@ export default function Slider() {
   return (
     <S.container afterChange={onChange}>
       {recipes.map(
-        (recipe, index) =>
-          index < 5 && (
+        (recipe) =>
+          recipe.id < 5 && (
             <S.content>
               <S.img src={recipe.image_url} alt={recipe.name} />
               <S.textContent>
