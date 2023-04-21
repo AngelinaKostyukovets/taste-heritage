@@ -7,6 +7,7 @@ import { darkTheme, lightTheme } from '../theme/theme'
 import Header from './header/Header'
 import { SortRecipesContext } from '../hooks/useFilterRecipes'
 import Recipes from './pages/recipes/Recipes'
+import Footer from './footer/Footer'
 
 function App() {
   const [sort, setSort] = useState<string>('likes')
@@ -85,6 +86,7 @@ function App() {
           <Route path="/dishes/curd" element={<Recipes redTitle="Творог" />} />
           <Route path="/dishes/eggs" element={<Recipes redTitle="Яйца" />} />
         </Routes>
+        <Footer />
       </SortRecipesContext.Provider>
     </ThemeProvider>
   )
