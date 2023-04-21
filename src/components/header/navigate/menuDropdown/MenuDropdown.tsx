@@ -1,6 +1,5 @@
 import { DownOutlined } from '@ant-design/icons'
 import S from './MenuDropdown.styled'
-import { useSortRecipes } from '../../../../hooks/useSortRecipes'
 
 interface MenuDropdownProps {
   nameMenu: string
@@ -8,6 +7,7 @@ interface MenuDropdownProps {
   menuAdress: string
   listAdresses: Array<string>
   setFilter: React.Dispatch<React.SetStateAction<string>>
+  setClear: React.Dispatch<React.SetStateAction<string>>
 }
 
 export default function MenuDropdown({
@@ -16,6 +16,7 @@ export default function MenuDropdown({
   menuAdress,
   listAdresses,
   setFilter,
+  setClear,
 }: MenuDropdownProps) {
   return (
     <li>
@@ -30,6 +31,7 @@ export default function MenuDropdown({
               <S.linkDropdown
                 onClick={(e) => {
                   e.stopPropagation()
+                  setClear('')
                   setFilter(item)
                 }}
                 to={`${listAdresses[index]}`}

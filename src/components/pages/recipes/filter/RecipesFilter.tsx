@@ -1,8 +1,8 @@
 import { Select, Space } from 'antd'
-import { useSortRecipes } from '../../../../hooks/useSortRecipes'
+import { useFilterRecipes } from '../../../../hooks/useFilterRecipes'
 
 export default function RecipesFilter() {
-  const { sortRecipes, setSortRecipes } = useSortRecipes()
+  const { sortRecipes, setSortRecipes } = useFilterRecipes()
 
   const onChange = (value: string) => {
     setSortRecipes(value)

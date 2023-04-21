@@ -1,6 +1,6 @@
 import { createContext, useContext } from 'react'
 
-interface SortRecipesContextProps {
+interface FilterRecipesContextProps {
   sortRecipes: string
   setSortRecipes: React.Dispatch<React.SetStateAction<string>>
   typeDish: string
@@ -9,6 +9,6 @@ interface SortRecipesContextProps {
   setProductDish: React.Dispatch<React.SetStateAction<string>>
 }
 
-export const SortRecipesContext = createContext({} as SortRecipesContextProps)
+export const SortRecipesContext = createContext({} as FilterRecipesContextProps)
 
-export const useSortRecipes = () => useContext(SortRecipesContext)
+export const useFilterRecipes = () => useContext(SortRecipesContext)

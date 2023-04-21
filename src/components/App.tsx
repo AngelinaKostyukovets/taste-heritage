@@ -5,7 +5,7 @@ import { GlobalStyle } from './globalStyle'
 import Home from './pages/home/Home'
 import { darkTheme, lightTheme } from '../theme/theme'
 import Header from './header/Header'
-import { SortRecipesContext } from '../hooks/useSortRecipes'
+import { SortRecipesContext } from '../hooks/useFilterRecipes'
 import Recipes from './pages/recipes/Recipes'
 
 function App() {
@@ -58,18 +58,21 @@ function App() {
             path="/typeDishes/soups"
             element={<Recipes redTitle="Супы" />}
           />
-          <Route path="/dishes" element={<Recipes redTitle="Блюда из" />} />
+          <Route
+            path="/dishes"
+            element={<Recipes redTitle="Блюда" otherTitle="из" />}
+          />
           <Route
             path="/dishes/meat"
-            element={<Recipes redTitle="Блюда из мяса" />}
+            element={<Recipes redTitle="Блюда" otherTitle="из мяса" />}
           />
           <Route
             path="/dishes/poultry"
-            element={<Recipes redTitle="Блюда из птицы" />}
+            element={<Recipes redTitle="Блюда" otherTitle="из птицы" />}
           />
           <Route
             path="/dishes/fish"
-            element={<Recipes redTitle="Блюда из рыбы" />}
+            element={<Recipes redTitle="Блюда" otherTitle="из рыбы" />}
           />
           <Route
             path="/dishes/vegetables"
@@ -77,7 +80,7 @@ function App() {
           />
           <Route
             path="/dishes/dough"
-            element={<Recipes redTitle="Блюда из теста" />}
+            element={<Recipes redTitle="Блюда" otherTitle="из теста" />}
           />
           <Route path="/dishes/curd" element={<Recipes redTitle="Творог" />} />
           <Route path="/dishes/eggs" element={<Recipes redTitle="Яйца" />} />

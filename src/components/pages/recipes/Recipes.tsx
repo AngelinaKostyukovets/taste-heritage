@@ -5,24 +5,19 @@ import RecipesCard from './card/RecipesCard'
 import S from './Recipes.styled'
 import RedTitle from '../../redTitle/RedTitle'
 import RecipesFilter from './filter/RecipesFilter'
-import { useSortRecipes } from '../../../hooks/useSortRecipes'
+import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
 import { recipesActions } from '../../../store/recipes/recipesSlice'
 
 interface RecipesProps {
   redTitle: string
   otherTitle?: string
-  recipesFilter?: string
 }
 
-export default function Recipes({
-  redTitle,
-  otherTitle,
-  recipesFilter,
-}: RecipesProps) {
+export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
   const recipes = useAppSelector((state) => state.recipes.recipes)
   const dispatch = useAppDispatch()
   const [page, setPage] = useState<number>(1)
-  const { sortRecipes, typeDish, productDish } = useSortRecipes()
+  const { sortRecipes, typeDish, productDish } = useFilterRecipes()
 
   const fetchData = () => {
     dispatch(
@@ -41,13 +36,12 @@ export default function Recipes({
   }
 
   useEffect(() => {
-    fetchData()
-  }, [page, typeDish, productDish])
+    setPage(1)
+  }, [sortRecipes])
 
   useEffect(() => {
-    setPage(1)
     fetchData()
-  }, [sortRecipes])
+  }, [page, typeDish, productDish, sortRecipes])
 
   return (
     <S.container>

@@ -4,10 +4,10 @@ import MenuDropdown from './menuDropdown/MenuDropdown'
 import { useAppDispatch } from '../../../store/store'
 import { recipesActions } from '../../../store/recipes/recipesSlice'
 import useDebounce from '../../../hooks/useDebounce'
-import { useSortRecipes } from '../../../hooks/useSortRecipes'
+import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
 
 export default function Navigate() {
-  const { sortRecipes, setTypeDish, setProductDish } = useSortRecipes()
+  const { sortRecipes, setTypeDish, setProductDish } = useFilterRecipes()
   const dispatch = useAppDispatch()
   const [search, setSearch] = useState<string>('')
   const debounceSearch = useDebounce(search, 1000)
@@ -46,6 +46,7 @@ export default function Navigate() {
             '/typeDishes/soups',
           ]}
           setFilter={setTypeDish}
+          setClear={setProductDish}
         />
         <MenuDropdown
           nameMenu="Блюда из"
@@ -69,6 +70,7 @@ export default function Navigate() {
             '/dishes/eggs',
           ]}
           setFilter={setProductDish}
+          setClear={setTypeDish}
         />
         <li style={{ padding: '0', flexGrow: '1' }}>
           <S.search
