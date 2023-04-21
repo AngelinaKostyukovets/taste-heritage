@@ -1,21 +1,13 @@
 import { Select, Space } from 'antd'
-import { useEffect, useState } from 'react'
-import { useAppDispatch } from '../../../../store/store'
-import { recipesActions } from '../../../../store/recipes/recipesSlice'
+import { useFilterRecipes } from '../../../../hooks/useFilterRecipes'
 
 export default function RecipesFilter() {
-  const dispatch = useAppDispatch()
-  const [sortRecipes, setSortRecipes] = useState<string>('likes')
+  const { sortRecipes, setSortRecipes } = useFilterRecipes()
 
-  const fetchData = () => {
-    dispatch(recipesActions.getRecipesList({ sortRecipes }))
-  }
   const onChange = (value: string) => {
     setSortRecipes(value)
   }
-  useEffect(() => {
-    fetchData()
-  }, [sortRecipes])
+
   return (
     <Space>
       <Select

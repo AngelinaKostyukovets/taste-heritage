@@ -5,7 +5,7 @@ import { styles } from '../../../globalStyle'
 const S = {
   container: styled(Carousel)`
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 0 auto 50px;
   `,
   content: styled.div`
     position: relative;

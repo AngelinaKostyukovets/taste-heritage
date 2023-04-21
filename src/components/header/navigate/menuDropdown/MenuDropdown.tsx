@@ -6,6 +6,8 @@ interface MenuDropdownProps {
   list: Array<string>
   menuAdress: string
   listAdresses: Array<string>
+  setFilter: React.Dispatch<React.SetStateAction<string>>
+  setClear: React.Dispatch<React.SetStateAction<string>>
 }
 
 export default function MenuDropdown({
@@ -13,6 +15,8 @@ export default function MenuDropdown({
   list,
   menuAdress,
   listAdresses,
+  setFilter,
+  setClear,
 }: MenuDropdownProps) {
   return (
     <li>
@@ -24,7 +28,14 @@ export default function MenuDropdown({
         <S.menuDropdown>
           {list.map((item, index) => (
             <li>
-              <S.linkDropdown to={`${listAdresses[index]}`}>
+              <S.linkDropdown
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setClear('')
+                  setFilter(item)
+                }}
+                to={`${listAdresses[index]}`}
+              >
                 {item}
               </S.linkDropdown>
             </li>

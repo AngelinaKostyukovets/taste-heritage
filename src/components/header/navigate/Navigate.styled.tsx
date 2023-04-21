@@ -9,6 +9,7 @@ const S = {
     font-size: 24px;
     line-height: 27px;
     border: 1px solid black;
+    margin-bottom: 50px;
   `,
   menu: styled.ul`
     ${styles.container};
@@ -33,10 +34,10 @@ const S = {
     }
   `,
   link: styled(NavLink)`
-    display: inline-block;
+    display: block;
     color: ${({ theme }) => theme.colors.text};
     border-left: 1px solid black;
-    padding: 16px 50px;
+    padding: 17px 50px;
     position: relative;
     transition: 0.3s;
     &:hover {

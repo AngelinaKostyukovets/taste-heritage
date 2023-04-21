@@ -1,10 +1,38 @@
+import { useEffect, useState } from 'react'
 import S from './Navigate.styled'
 import MenuDropdown from './menuDropdown/MenuDropdown'
+import { useAppDispatch } from '../../../store/store'
+import { recipesActions } from '../../../store/recipes/recipesSlice'
+import useDebounce from '../../../hooks/useDebounce'
+import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
 
 export default function Navigate() {
+  const { sortRecipes, setTypeDish, setProductDish } = useFilterRecipes()
+  const dispatch = useAppDispatch()
+  const [search, setSearch] = useState<string>('')
+  const debounceSearch = useDebounce(search, 1000)
+
+  const fetchData = () => {
+    dispatch(recipesActions.getRecipesList({ sortRecipes, search }))
+  }
+
+  const onChangeSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = event.target.value
+    setSearch?.(newValue)
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, [debounceSearch])
+
   return (
     <S.container>
-      <S.menu>
+      <S.menu
+        onClick={() => {
+          setTypeDish('')
+          setProductDish('')
+        }}
+      >
         <MenuDropdown
           nameMenu="Типы блюд"
           list={['второе', 'закуски', 'салаты', 'десерты', 'выпечка', 'супы']}
@@ -17,6 +45,8 @@ export default function Navigate() {
             '/typeDishes/bakery',
             '/typeDishes/soups',
           ]}
+          setFilter={setTypeDish}
+          setClear={setProductDish}
         />
         <MenuDropdown
           nameMenu="Блюда из"
@@ -39,9 +69,16 @@ export default function Navigate() {
             '/dishes/curd',
             '/dishes/eggs',
           ]}
+          setFilter={setProductDish}
+          setClear={setTypeDish}
         />
         <li style={{ padding: '0', flexGrow: '1' }}>
-          <S.search type="text" placeholder="Поиск" />
+          <S.search
+            value={search}
+            onChange={onChangeSearch}
+            type="text"
+            placeholder="Поиск"
+          />
         </li>
         <li>
           <S.link to="/login">Войти</S.link>

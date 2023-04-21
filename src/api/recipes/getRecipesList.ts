@@ -8,6 +8,11 @@ const getRecipesList = (filter: RecipesFilterType) =>
     params: {
       _sort: filter.sortRecipes,
       _order: 'desc',
+      q: filter.search,
+      _page: filter.page,
+      _limit: filter.limit,
+      typeDish_like: filter.typeDish,
+      productDish_like: filter.productDish,
     },
   })
 
