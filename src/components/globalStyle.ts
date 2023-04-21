@@ -21,6 +21,11 @@ export const styles = {
     font-style: normal;
     font-weight: 600;
   `,
+  lora: css`
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 400;
+  `,
 }
 
 export const GlobalStyle = createGlobalStyle`  
