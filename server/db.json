@@ -1078,191 +1078,2057 @@
     },
     {
       "id": 24,
-      "name": "",
-      "typeDish": "",
-      "productDish": "",
-      "image_url": "",
-      "description": "",
-      "time": "",
-      "portions": "",
-      "likes": 5,
+      "name": "Салат «Цезарь» с курицей",
+      "typeDish": "салаты",
+      "productDish": "блюда из птицы, овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-1240x821_w.jpg",
+      "description": "Ну как можно обойтись без рецепта вкусного домашнего «Цезаря» в арсенале? Кажется, это тот самый салат, который любят все. Моя вариация не совсем классическая, но зато простая и доступная даже начинающим кулинарам.",
+      "time": "20 мин.",
+      "portions": "2 порции",
+      "likes": 25,
       "comments": [],
-      "author": "",
-      "date": "",
-      "ingredients": [],
+      "author": "Ирина Ковалева",
+      "date": "24.03.2023",
+      "ingredients": [
+        "Для салата:",
+        "Куриное филе – 200 г",
+        "Оливковое масло – 2 ч.л.",
+        "Белый хлеб – 100 г",
+        "Салатный микс – 200 г",
+        "Пармезан – 50 г",
+        "Помидоры черри – 150 г",
+        "Соль – 1 щепотка",
+        "Специи и приправы – 1 ч.л.",
+        "Для заправки:",
+        "Яйца куриные – 2 штуки",
+        "Горчица – 1 ч.л.",
+        "Оливковое масло – 3.5 ст.л.",
+        "Лимонный сок – 1.5 ст.л.",
+        "Чеснок – 1 зубчик",
+        "Соль – 1 щепотка"
+      ],
       "recipe": [
         {
-          "description": "",
-          "img": ""
+          "description": "Натрите куриное филе солью и специями по вкусу, и смажьте его ложкой оливкового масла.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-1-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Жарьте на раскаленной сковороде без масла примерно по 3 минуты с каждой стороны. Проверяйте ножом, чтобы мясо внутри не осталось сырым.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-2-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Когда курица остынет, нарежьте ее для салата. Помидоры черри нарежьте четвертинками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-3-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Отварите яйца в крутую и отделите желтки. Они пойдут в заправку. Белки можете добавить в салат или отложить для другого блюда.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-4-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Нарежьте белый хлеб кубиками, полейте ложкой оливкового масла и посыпьте специями.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Обжарьте сухарики на сухой горячей сковороде 3-5 минут, помешивая.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-6-572x379_w.webp"
+        },
+        {
+          "description": "Измельчите чеснок и смешайте все ингредиенты для заправки. Добавьте к ним яичные желтки и снова перемешайте.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-7-572x379_w.webp"
+        },
+        {
+          "description": "Выложите салатный микс, на него – остальные ингредиенты, полейте соусом и посыпьте «Цезарь» сухариками и тертым пармезаном.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-7163-shag-8-572x379_w.webp"
         }
       ]
     },
     {
       "id": 25,
-      "name": "",
-      "typeDish": "",
-      "productDish": "",
-      "image_url": "",
-      "description": "",
-      "time": "",
-      "portions": "",
-      "likes": 5,
+      "name": "Салат из тыквы со свеклой",
+      "typeDish": "салаты",
+      "productDish": "овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6244-scaled-1240x827_w.jpg",
+      "description": "Очень простой, быстрый и вкусный салат, который скрасит любой обед или ужин. Он отлично смотрится и на праздничном столе, но советую сразу подавать его порционно. Можете добавить семечки, орехи или немного меда.",
+      "time": "1 ч. 0 мин.",
+      "portions": "1 порция",
+      "likes": 1,
       "comments": [],
-      "author": "",
-      "date": "",
-      "ingredients": [],
+      "author": "Ирина Ковалева",
+      "date": "24.03.2023",
+      "ingredients": [
+        "Свекла – 1 штука",
+        "Тыква – 200 г",
+        "Фета – 50 г",
+        "Руккола – 50 г",
+        "Гранат (зерна) – 1 горсть",
+        "Тимьян – 0.5 ч.л.",
+        "Оливковое масло – 2 ст.л.",
+        "Винный уксус – 1 ч.л.",
+        "Дижонская горчица – 2 ч.л.",
+        "Специи и приправы – 1 ч.л."
+      ],
       "recipe": [
         {
-          "description": "",
-          "img": ""
+          "description": "Заверните свеклу в фольгу и запеките в духовке до готовности, а потом нарежьте. Для корнеплода среднего размера это примерно 1 час при 200 градусах.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6244-shag-1-572x381_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Нарежьте тыкву средним кубиком, выложите в форму, посыпьте тимьяном и специями, и сбрызните ложкой оливкового масла. Хорошенько все перемешайте и запекайте 15-20 минут при 200 градусах.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6244-shag-2-572x381_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Произвольно нарежьте фету, добавьте рукколу и овощи, и аккуратно перемешайте ингредиенты.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6244-shag-3-572x381_w.webp"
         },
         {
-          "description": "",
-          "img": ""
-        },
-        {
-          "description": "",
-          "img": ""
+          "description": "Смешайте оставшееся масло, горчицу и винный уксус, и полейте салат этой заправкой. Вместо винного уксуса так же подойдет бальзамический. Готовый салат посыпьте зернами граната.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6244-shag-4-572x381_w.webp"
         }
       ]
     },
     {
       "id": 26,
-      "name": "",
-      "typeDish": "",
-      "productDish": "",
-      "image_url": "",
-      "description": "",
-      "time": "",
-      "portions": "",
-      "likes": 5,
+      "name": "Салат с грибами и цукини на гриле",
+      "typeDish": "салаты",
+      "productDish": "овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20524-1240x821_w.jpg",
+      "description": "Этот рецепт лучше всего подходит для пикников, когда нужен свежий овощной перекус, а под рукой как раз есть гриль. Впрочем, грибы и цукини можно приготовить и на сковородке. Интересная изюминка этого рецепта – свежемолотый розовый перец.",
+      "time": "15 минут",
+      "portions": "4 порции",
+      "likes": 9,
       "comments": [],
-      "author": "",
-      "date": "",
-      "ingredients": [],
+      "author": "Ирина Ковалева",
+      "date": "23.03.2023",
+      "ingredients": [
+        "Грибы – 300 г",
+        "Цукини – 2 штуки",
+        "Лук фиолетовый – 2 штуки",
+        "Помидоры черри – 300 г",
+        "Зелень – 1 пучок",
+        "Молотый розовый перец – 0.5 ч.л.",
+        "Оливковое масло – 2 ст.л."
+      ],
       "recipe": [
         {
-          "description": "",
-          "img": ""
+          "description": "Нарежьте цукини кружочками, а грибы пластинами, и обжарьте на гриле.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20524-shag-1-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Нарежьте черри пополам и произвольно измельчите зелень.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20524-shag-2-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
-        },
-        {
-          "description": "",
-          "img": ""
-        },
-        {
-          "description": "",
-          "img": ""
+          "description": "Фиолетовый лук нарежьте кольцами, перемешайте салат и сбрызните маслом. Посыпьте розовым перцем.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20524-shag-3-572x379_w.webp"
         }
       ]
     },
     {
       "id": 27,
-      "name": "",
-      "typeDish": "",
-      "productDish": "",
-      "image_url": "",
-      "description": "",
-      "time": "",
-      "portions": "",
-      "likes": 5,
+      "name": "Греческий салат с креветками",
+      "typeDish": "салаты",
+      "productDish": "овощи, морепродукты",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8566-1-1240x821_w.jpg",
+      "description": "Мне кажется, креветки практически любое блюдо могут сделать вкуснее. Во всяком случае, с греческим салатом получается именно так. Попробуйте приготовить его с креветками и убедитесь в этом сами!",
+      "time": "20 мин.",
+      "portions": "4 порции",
+      "likes": 17,
       "comments": [],
-      "author": "",
-      "date": "",
-      "ingredients": [],
+      "author": "Ольга Безносюк",
+      "date": "22.03.2023",
+      "ingredients": [
+        "Для салата:",
+        "Креветки (охлажденные) – 350 г",
+        "Фета – 150 г",
+        "Болгарский перец – 1 штука",
+        "Помидоры черри – 1 веточка",
+        "Маслины (без косточки) – полбанки",
+        "Салат айсберг – полпучка",
+        "Орегано – 0,5 ч.л.",
+        "Вода (кипяток) – 800 мл",
+        "Для заправки:",
+        "Оливковое масло – 2 ст.л.",
+        "Лимонный сок – 2 ч.л.",
+        "Соль – по вкусу"
+      ],
       "recipe": [
         {
-          "description": "",
-          "img": ""
+          "description": "Охлажденные креветки промойте кипятком, остудите и очистите от панцирей.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8566-shag-1-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Нарежьте болгарский перец, помидоры и фету.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8566-shag-2-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Салат айсберг промойте, отряхните и порвите на небольшие кусочки.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8566-shag-3-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Отдельно смешайте лимонный сок, оливковое масло и соль.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8566-shag-4-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "В широкой миске смешайте салатные листья, креветки, помидоры, маслины, сыр, болгарский перец и орегано.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8566-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Влейте подготовленную заправку и аккуратно перемешайте салат.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8566-shag-6-572x379_w.webp"
         }
       ]
     },
     {
       "id": 28,
-      "name": "",
-      "typeDish": "",
-      "productDish": "",
-      "image_url": "",
-      "description": "",
-      "time": "",
-      "portions": "",
-      "likes": 5,
+      "name": "Диетический салат с курицей и маслинами",
+      "typeDish": "салаты",
+      "productDish": "овощи, блюда из птицы",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-10840-1240x822_w.jpg",
+      "description": "Легкий и красочный салат со свежими овощами и отварной курицей – находка для всех, кто придерживается диеты или правильного питания. Пикантности такому сочетанию придаст всего лишь горсть консервированных маслин. Можете подавать такой салат с любой любимой заправкой или вообще без нее.",
+      "time": "30 мин.",
+      "portions": "2 порции",
+      "likes": 32,
       "comments": [],
-      "author": "",
-      "date": "",
-      "ingredients": [],
+      "author": "Ирина Ковалева",
+      "date": "20.03.2023",
+      "ingredients": [
+        "Куриное филе – 1 штука",
+        "Салат латук – 100 г",
+        "Салатный микс – 60 г",
+        "Руккола – 60 г",
+        "Болгарский перец – 1 штука",
+        "Помидоры черри – 8 штук",
+        "Маслины – 1 горсть",
+        "Специи и приправы – 1 ч.л."
+      ],
       "recipe": [
         {
-          "description": "",
-          "img": ""
+          "description": "Отварите курицу до готовности около получаса.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-10840-shag-1-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Промойте всю зелень и произвольно измельчите по желанию.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-10840-shag-2-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
+          "description": "Нарежьте перец соломкой, а черри – четвертинками, перемешайте ингредиенты и приправьте салат.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-10840-shag-3-572x379_w.webp"
         },
         {
-          "description": "",
-          "img": ""
-        },
-        {
-          "description": "",
-          "img": ""
+          "description": "Сверху посыпьте блюдо маслинами без косточек.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-10840-shag-4-572x379_w.webp"
         }
       ]
     },
     {
       "id": 29,
+      "name": "Классический рецепт поке",
+      "typeDish": "салаты",
+      "productDish": "блюда из рыбы, овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-scaled-1240x827_w.jpg",
+      "description": "Поке - уникальное блюдо. Сытное, полезное, идеально сбалансированное и невероятно легкое в комбинировании ингредиентов. Классический рецепт подразумевает в основе рис, красную рыбу, овощи и кисло-сладкий соус. Давайте разберемся на конкретном примере.",
+      "time": "40 мин.",
+      "portions": "4 порции",
+      "likes": 5,
+      "comments": [],
+      "author": "Екатерина Паршина",
+      "date": "16.03.2023",
+      "ingredients": [
+        "Рис – 300 г",
+        "Лосось (филе) – 350 г",
+        "Огурцы – 1 шт.",
+        "Авокадо – 2 шт.",
+        "Редис – 4 шт.",
+        "Соевый соус – 4 ст.л.",
+        "Лимонный сок – 60 мл",
+        "Кунжут – для украшения",
+        "Зеленый лук – для украшения"
+      ],
+      "recipe": [
+        {
+          "description": "Авокадо, редис и огурцы нарежьте тонкими слайсами.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Филе лосося нарежьте небольшими кусочками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "В миске смешайте лимонный сок и соевый соус, получившейся заправкой замаринуйте рыбу и авокадо. Отправьте в холодильник на 10 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Рис промойте под проточной водой и отварите до готовности, теплым выложите в глубокие тарелки.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Заправьте рис оставшимся после маринования рыбы маринадом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Сверху на рис выложите маринованный лосось, редис и огурцы.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "Готовое блюдо подавайте к столу, не перемешивая, украсив нарезанным зеленым луком или семенами кунжута и дополнив по желанию салатом чука.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/11/recept-47989-shag-7-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Салат «Гранатовый браслет» с курицей и грецкими орехами",
+      "typeDish": "салаты",
+      "productDish": "блюда из курицы, овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-1-1240x821_w.jpg",
+      "description": "Вкусный и красивый «Гранатовый браслет» точно понравится всем вашим гостям. Приготовьте его с курицей и грецкими орехами, соберите по слоям и украсьте дополнительным декором. Делюсь простым рецептом оригинального салата!",
+      "time": "25 мин.",
+      "portions": "6 порций",
+      "likes": 7,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "22.03.2023",
+      "ingredients": [
+        "Куриное филе (вареное) – 250 г",
+        "Свекла (отварная) – 200 г",
+        "Картофель (отварной) – 200 г",
+        "Морковь (вареная) – 2 штуки",
+        "Грецкие орехи – полстакана",
+        "Молотый черный перец – по вкусу",
+        "Соль – по вкусу",
+        "Майонез – 180 мл",
+        "Гранат (зерна) – 2 стакана"
+      ],
+      "recipe": [
+        {
+          "description": "Вареную курицу нарежьте небольшими кубиками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Грецкие орехи подсушите на сковороде и измельчите в блендере.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Свеклу, картофель, морковь очистите и натрите на крупной терке.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "В центр широкой тарелки поставьте стакан. Это позволит придать салату форму кольца. Сначала выложите картофель. Добавьте соль, молотый перец и немного майонеза.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Затем выложите курицу, смешанную с орехами. Посолите, поперчите и смажьте майонезом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Равномерно распределите морковь, а затем и свеклу. Посыпьте перцем, солью и смажьте майонезом со всех сторон.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-6-1-572x379_w.webp"
+        },
+        {
+          "description": "Сверху украсьте салат зернами граната, аккуратно выньте стакан.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-7-1-572x379_w.webp"
+        },
+        {
+          "description": "Настаивайте готовый салат 1,5-2 часа в холодильнике.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13190-shag-8-1-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Фруктовый салат с ананасом, мандаринами и маршмеллоу",
+      "typeDish": "салаты",
+      "productDish": "фрукты",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17418-1-1240x827_w.jpg",
+      "description": "Хочется сладкого? Отложите в сторону шоколадку! Сегодня будем готовить очень вкусный фруктовый салат. Для этого понадобится консервированный ананас, мандарины, йогурт и маршмеллоу. Это блюдо с удовольствием едят дети и взрослые.",
+      "time": "15 мин.",
+      "portions": "3 порции",
+      "likes": 18,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "18.03.2023",
+      "ingredients": [
+        "Ананас (консервированный) – 250 г",
+        "Мандарины (средние) – 3 штуки",
+        "Виноград (без косточки) – 150 г",
+        "Йогурт – 3 ст.л.",
+        "Кокосовая стружка – 1 ст.л.",
+        "Сахарная пудра – 1 ст.л.",
+        "Маршмеллоу – горсть"
+      ],
+      "recipe": [
+        {
+          "description": "Виноград промойте и обсушите. Каждую ягоду разрежьте пополам.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17418-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Мандарины очистите от кожуры, пленок и нарежьте. Если дольки маленькие, можно оставить их целыми.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17418-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Консервированный ананас нарежьте небольшими кубиками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17418-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте виноград, ананас, мандарины, кокосовую стружку, сахарную пудру и йогурт.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17418-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Выложите салат на тарелку и украсьте маршмеллоу.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17418-shag-5-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Крабовый салат с рисом и сыром",
+      "typeDish": "салаты",
+      "productDish": "овощи, морепродукты",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20106-scaled-1240x827_w.jpg",
+      "description": "На первый взгляд сочетание риса и сыра может показаться странным. Тем более, тут еще и пекинская капуста с крабовыми палочками. Но в реальности салат получается очень вкусным и сытным, так что смело попробуйте приготовить его при случае.",
+      "time": "20 мин.",
+      "portions": "4 порции",
+      "likes": 5,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "22.03.2023",
+      "ingredients": [
+        "Пекинская капуста – 1 кочан",
+        "Рис – 120 г",
+        "Сыр – 150 г",
+        "Крабовые палочки – 300 г",
+        "Кукуруза – 1 банка",
+        "Майонез – 4 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "Отварите рис до готовности, но не переваривайте, чтобы он остался рассыпчатым.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20106-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Нашинкуйте пекинскую капусту и натрите сыр на крупной терке.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20106-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Мелко нарежьте крабовые палочки и добавьте кукурузу.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20106-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Заправьте салат майонезом перед подачей.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20106-shag-4-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Салат с красной рыбой, шпинатом и авокадо",
+      "typeDish": "салаты",
+      "productDish": "блюда из рыбы, овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20209-1-1240x827_w.jpg",
+      "description": "Осторожно! Салат получается таким вкусным, что остальные блюда на его фоне меркнут. Обязательно добавляйте хлопья красного перца, поскольку они делают блюдо особенным. Если вы не любитель острого, сократите его количество до минимума.",
+      "time": "15 мин.",
+      "portions": "2 порции",
+      "likes": 13,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "10.03.2023",
+      "ingredients": [
+        "Красная рыба (слабосоленая) – 200 г",
+        "Авокадо – 1 штука",
+        "Шпинат (беби) – 100 г",
+        "Апельсиновый сок – 3 ст.л.",
+        "Оливковое масло – 3 ст.л.",
+        "Острый красный перец (хлопьями) – по вкусу",
+        "Морская соль – по вкусу"
+      ],
+      "recipe": [
+        {
+          "description": "Авокадо очистите и нарежьте кубиками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20209-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Красную рыбу нарежьте тонкими слайсами.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20209-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте рыбу, шпинат и авокадо.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20209-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте соль, хлопья красного перца и масло, смешанное с апельсиновым соком.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-20209-shag-4-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Шоколадный торт Брауни",
+      "typeDish": "десерты, выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-33074-1-scaled-1240x827_w.jpg",
+      "description": "Сегодня будем готовить традиционный американский торт Брауни. Важно не передержать десерт в духовке, потому что он обязательно должен оставаться внутри слегка сырым. Готовый торт можно присыпать сахарной пудрой или тертыми орехами.",
+      "time": "30 мин.",
+      "portions": "10 порций",
+      "likes": 9,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "22.03.2023",
+      "ingredients": [
+        "Яйца куриные – 3 штуки",
+        "Сахар – 120 г",
+        "Разрыхлитель теста – 0,5 ч.л.",
+        "Соль – на кончике ножа",
+        "Мука – 110 г",
+        "Сливочное масло – 120 г",
+        "Горький шоколад – 120 г"
+      ],
+      "recipe": [
+        {
+          "description": "Размягченное сливочное масло смешайте с сахаром и растопленным шоколадом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-33074-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте слегка взбитые яйца, соль и муку, смешанную с разрыхлителем.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-33074-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Выложите тесто в силиконовую форму и разровняйте.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-33074-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Выпекайте 15-18 минут в духовке, разогретой до 180 градусов.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-33074-shag-4-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Торт Наполеон со сметанным кремом",
+      "typeDish": "десерты, выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-1-scaled-1240x827_w.jpg",
+      "description": "Никогда не готовили Наполеон на дрожжах? Советую обязательно попробовать этот рецепт! Коржи получаются вкусными, хрустящими и многослойными. Выпекаются они быстро, поэтому лучше заранее раскатать несколько заготовок.",
+      "time": "1 ч. 0 мин.",
+      "portions": "14 порций",
+      "likes": 8,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "11.03.2023",
+      "ingredients": [
+        "Для коржей:",
+        "Маргарин – 240 г",
+        "Мука – 450 г",
+        "Сухие дрожжи – 10 г",
+        "Вода – 100 мл",
+        "Сахар – 1 ст.л.",
+        "Соль – 0,25 ч.л.",
+        "Для крема:",
+        "Сметана (25 % жирности) – 500 мл",
+        "Сахар – 1 стакан",
+        "Ванильная эссенция – 2 капли"
+      ],
+      "recipe": [
+        {
+          "description": "Смешайте дрожжи, теплую воду, сахар и 1 ст.л. муки. Накройте полотенцем и поставьте в теплое место на 20 минут, чтобы дрожжи активировались.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Маргарин натрите на терке или порубите ножом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте соль, просеянную муку и перетрите руками. Должна получиться крупная крошка.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте заготовку с дрожжами и замесите мягкое тесто.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Разделите тесто на 8 одинаковых кусочков, накройте полотенцем и уберите на 1 час в холодильник.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Каждый кусочек раскатайте в тонкий корж. Удобно это делать, подстелив бумагу для выпечки, на которой потом и будет выпекаться корж. Наколите корж вилкой, чтобы тесто не вздулось.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "Выпекайте 5-7 минут в духовке, разогретой до 180 градусов.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-7-572x381_w.webp"
+        },
+        {
+          "description": "Сметану взбейте с сахаром и ванильной эссенцией.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-8-572x381_w.webp"
+        },
+        {
+          "description": "Соберите торт, смазывая коржи сметанным кремом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-9-572x381_w.webp"
+        },
+        {
+          "description": "Один корж разомните скалкой до мелкой крошки.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-10-572x381_w.webp"
+        },
+        {
+          "description": "Смажьте торт сверху и присыпьте подготовленной крошкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32697-shag-11-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Моти в домашних условиях",
+      "typeDish": "десерты",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-48999-scaled-1240x826_w.jpg",
+      "description": "Моти в домашних условиях - это традиционные японские сладости приготовленные по особенному рецепту. Легкие, нежные, с интересными вкусами внутри, не похожие на привычные сладости. Для начинки подойдет все, что густое по консистенции.",
+      "time": "40 мин.",
+      "portions": "8 порций",
+      "likes": 8,
+      "comments": [],
+      "author": "Карина Михайлова",
+      "date": "09.03.2023",
+      "ingredients": [
+        "Для теста:",
+        "Рисовая мука – 150 г",
+        "Вода – 8 ст.л",
+        "Сахарная пудра – 1 ч.л",
+        "Ванильный сахар – 10 г",
+        "Лимонный сок – 1 ч.л",
+        "Пищевой краситель – 2 капли",
+        "Для начинки:",
+        "Нутелла – 100 г",
+        "Грецкие орехи – 50 г"
+      ],
+      "recipe": [
+        {
+          "description": "Приготовьте начинку. Измельчите орехи в порошок и смешайте с нутеллой",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-48999-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Теперь приготовьте тесто для моти. Смешайте воду, рисовую муку, сахар, ванильный сахар, лимонную кислоту и несколько капель красителя. Поставьте тесто в микроволновку на 3 минуты, на полную мощность. Достаньте и перемешайте. Если тесто не готово, поставьте еще на 2 минуты.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-48999-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Посыпьте стол крахмалом, выложите тесто на стол и скатайте колбасу. Формировать моти нужно пока тесто не остыло, постоянно подсыпать крахмал.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-48999-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Отщипните часть теста, сделайте лепешку, положите в серединку немного начинки и скатайте красивый шарик. Выложите все шарики на поднос и кушайте с чаем.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-48999-shag-4-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Тирамису со сметаной и маскарпоне",
+      "typeDish": "десерты",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-1-scaled-1240x827_w.jpg",
+      "description": "О тирамису не слышали разве что в отдаленных уголках мира. Популярный итальянский десерт завоевал любовь всех, кто пробовал его однажды. К сожалению, диетическим назвать его нельзя. Менее калорийную версию можно приготовить со сметаной.",
+      "time": "25 мин.",
+      "portions": "6 порций",
+      "likes": 5,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "27.03.2023",
+      "ingredients": [
+        "Печенье Савоярди – 250 г",
+        "Сметана (20 % жирности) – 350 г",
+        "Маскарпоне – 300 г",
+        "Сахарная пудра – 3 ст.л.",
+        "Ванильный сахар – 1 пакетик",
+        "Кофе (эспрессо) – 250 мл",
+        "Коньяк – 2 ст.л.",
+        "Какао (для украшения) – 2 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "Смешайте маскарпоне, сметану, ванильный сахар и сахарную пудру. Взбивайте все вместе миксером 2-3 минуты.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Кофе смешайте с коньяком и для удобства перелейте в широкую посуду.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Смажьте дно тарелки тонким слоем крема.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Опустите каждое печенье на 1-2 секунды в кофе и выложите на крем.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте слой крема и разровняйте.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Снова выложите печенье и все повторите. Продолжайте до тех пор, пока не закончатся ингредиенты.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "Готовый десерт присыпьте какао и уберите на 5-6 часов в холодильник.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-18831-shag-7-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Мороженое из йогурта",
+      "typeDish": "десерты",
+      "productDish": "ягоды",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34533-1240x821_w.jpg",
+      "description": "Мороженое из йогурта – простой домашний лайфхак для всех, кто следит за питанием, но не любит тратить много времени на готовку. Советую только заранее обзавестись красивыми формочками. Хотя если их нет, подойдут и обыкновенные стаканчики от тех же йогуртов.",
+      "time": "15 мин.",
+      "portions": "4 порции",
+      "likes": 15,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "01.03.2023",
+      "ingredients": ["Йогурт – 400 г", "Ягоды – 200 г"],
+      "recipe": [
+        {
+          "description": "Измельчите ягоды или любые фрукты в блендере до однородности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34533-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "По желанию добавьте заменитель сахара или мед.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34533-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Смешайте массу с йогуртом, разлейте по формочкам и отправьте застывать в морозилку.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34533-shag-3-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Сметанный мусс",
+      "typeDish": "десерты",
+      "productDish": "ягоды, творог",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34516-1240x821_w.jpg",
+      "description": "Сметана – классическая основа для легких муссовых десертов, и один из них я хочу предложить вам сегодня. Готовится настолько просто, насколько это вообще возможно. Но этот яркий незабываемый вкус достоин даже праздничного стола.",
+      "time": "15 мин.",
+      "portions": "4 порции",
+      "likes": 30,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "02.03.2023",
+      "ingredients": [
+        "Сметана – 300 г",
+        "Творог – 100 г",
+        "Ягоды – 100 г",
+        "Крахмал – 1 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "Взбейте сметану с творогом блендером до однородности и добавьте крахмал.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34516-shag-1-1-572x379_w.webp"
+        },
+        {
+          "description": "Отдельно измельчите ягоду или перетрите через сито.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34516-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Смешайте лопаткой ягоду со сметанной массой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34516-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Разложите мусс по бокалам.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34516-shag-4-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Яблочно-клюквенный зефир на агар-агаре",
+      "typeDish": "десерты",
+      "productDish": "фрукты, ягоды",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-1240x821_w.jpg",
+      "description": "Зефир на основе пюре из яблока и клюквы получается вкусным и ароматным, с нежной текстурой благодаря агар-агару. Готовить его несложно, однако следует точно соблюдать пропорции и температурный режим.",
+      "time": "2ч. 0 мин.",
+      "portions": "30 штук",
+      "likes": 8,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "29.03.2023",
+      "ingredients": [
+        "Яблоки (зеленые) – 2 штуки",
+        "Клюква – 150 г",
+        "Сахар – 500 г",
+        "Яичные белки – 1 штука",
+        "Вода – 150 мл",
+        "Агар-агар – 10 г",
+        "Сахарная пудра – 2 ст.л.",
+        "Крахмал – 1 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "Клюкву помойте и измельчите в блендере или другим удобным способом. Перелейте в сотейник и проварите до мягкости.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Дайте клюкве немного остыть, после чего измельчите в блендере до состояния пюре.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Зеленые яблоки нарежьте на кусочки, удалив семенную коробочку. Запеките в микроволновой печи (5-6 минут) или в духовке до мягкости. Также можно проварить яблоки, но затем придется хорошенько уварить пюре, чтобы оно не было слишком жидким.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Мягкие яблоки измельчите в блендере, а затем протрите через сито.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте к клюкве 100 г сахара и прогрейте в сотейнике или на водяной бане, чтобы растопить сахар.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Соедините клюкву и яблоко, перемешайте. Здесь получилось 300 г пюре. Можно взять меньше (250 г).",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-6-572x379_w.webp"
+        },
+        {
+          "description": "В сотейнике смешайте воду, оставшийся сахар и агар-агар. Поставьте на слабый огонь, помешивая.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-7-572x379_w.webp"
+        },
+        {
+          "description": "В чашу блендера положите фруктово-ягодное пюре, добавьте один белок – это примерно 40 г. Начинайте взбивать сначала на низкой скорости, постепенно увеличивая ее. Масса должна посветлеть и начать увеличиваться в размерах. Сироп доведите до температуры 110 градусов – удобно использовать кухонный термометр со щупом. Затем влейте сироп тонкой струйкой в чашу, стараясь не попадать на лопасти миксера. Оставшийся на дне сотейника агар-агар добавлять в зефирную массу не нужно.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-8-572x379_w.webp"
+        },
+        {
+          "description": "После того, как сироп будет добавлен, продолжайте взбивать массу еще минуты 2-3. Она должна получиться средней плотности, с пиками, но не очень жесткими. Следует помнить, что агар-агар начинает застывать при 40 градусах. Поэтому нужно сразу переходить к отсадке зефира.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-9-572x379_w.webp"
+        },
+        {
+          "description": "Отсаживать зефир лучше с помощью кондитерского мешка и насадки, например, открытая или закрытая звезда. В качестве поверхности подойдет пергамент, силиконовый или тефлоновый коврик. После отсадки дайте зефиру застыть – на это может уйти от 5 до 24 часов.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-10-572x379_w.webp"
+        },
+        {
+          "description": "После этого отделите его от поверхности, склейте половинки и обваляйте в смеси сахарной пудры и крахмала. Положите в емкость с крышкой. Лучше съесть зефир в ближайшие несколько дней.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-19023-shag-11-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Классический бенто-торт",
+      "typeDish": "десерты, выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-49456-scaled-1240x826_w.jpg",
+      "description": "Классический бенто торт с ванильным бисквитом и творожной начинкой покорит ваше сердце. Начинку можно сделать какой угодно, экспериментируйте. Пусть это будет шоколадный ганаш, взбитые сливки, фруктовый конфитюр или творожная.",
+      "time": "55 мин.",
+      "portions": "1 порция",
+      "likes": 10,
+      "comments": [],
+      "author": "Карина Михайлова",
+      "date": "21.03.2023",
+      "ingredients": [
+        "Для бисквита:",
+        "Яйца куриные – 2 штуки",
+        "Мука – 80 г",
+        "Сахар – 80 г",
+        "Ванильный сахар – 1 пакетик",
+        "Молоко – 25 мл",
+        "Разрыхлитель теста – 10 г",
+        "Растительное масло – 20 г",
+        "Для крема:",
+        "Творожный сыр – 200 г",
+        "Сливки (33%) – 150 г",
+        "Сахарная пудра – 70 г"
+      ],
+      "recipe": [
+        {
+          "description": "Сначала приготовим бисквит для торта. Яйца смешиваем с сахаром, с ванильным сахаром и взбиваем до образования густой пены. Добавляем растительное масло и молоко, продолжаем взбивать. Всыпаем разрыхлитель для теста и муку и все хорошо взбиваем до однородной консистенции.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-49456-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Бисквитное тесто выливаем на противень и отправляем запекаться в духовку на 25 минут при температуре 180С.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-49456-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Пока бисквит выпекается, приготовьте крем. Творожный сыр, сливки и сахар взбейте вместе до однородной консистенции.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-49456-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Достаньте бисквит, дайте немного остыть. Формировочным кольцом диаметром 10 см вырежьте 3 круга. Соберите торт, промазывая коржи кремом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-49456-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Обрезки бисквита измельчите, полученой крошкой покройте бока торта. Поставьте в холодильник на 2-3 часа, чтобы торт пропитался.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/12/recept-49456-shag-5-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Шоколадная панна-котта",
+      "typeDish": "десерты",
+      "productDish": "панна-котта",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3724-3-1240x827_w.jpg",
+      "description": "Представьте нежный и легкий десерт, который тает во рту. Его вкус настолько завораживает, что невозможно остановиться после первой ложки. Готова поспорить, большинство из вас отчетливо представили панна-котту. Предлагаю ее шоколадный рецепт!",
+      "time": "3 ч. 20 мин.",
+      "portions": "4 порции",
+      "likes": 14,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "25.03.2023",
+      "ingredients": [
+        "Сливки (жирность 33 %) – 500 мл",
+        "Желатин – 15 г",
+        "Вода (кипяченая) – 200 мл",
+        "Ванилин – на кончике ножа",
+        "Сахар – 100 г",
+        "Шоколад (какао 55-70 %) – 200 г"
+      ],
+      "recipe": [
+        {
+          "description": "Желатин залейте холодной водой и уберите в сторону на 15 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3724-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Шоколадку натрите на крупной терке. Самую красивую стружку отложите для украшения.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3724-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте в сотейнике сливки, сахар и ванилин. Прокипятите на медленном огне 2 минуты.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3724-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте шоколадку, желатин и перемешайте до полного растворения.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3724-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Разлейте жидкость по креманкам и уберите в прохладное место на 3 часа. Подавайте готовую панна-котту, украшая шоколадной стружкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3724-shag-5-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Макаронс с маскарпоне",
+      "typeDish": "десерты, выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-1240x821_w.jpg",
+      "description": "Макарон – это популярный французский десерт, который готовится на основе миндальной муки и меренги. В качестве начинки может использоваться фруктово-ягодный курд, шоколадный ганаш, карамель, творожный крем и многое другое.",
+      "time": "2 ч. 0 мин.",
+      "portions": "15 штук",
+      "likes": 14,
+      "comments": [],
+      "author": "Екатерина Паршина",
+      "date": "01.04.2023",
+      "ingredients": [
+        "Сахарная пудра – 150 г",
+        "Миндальная мука – 150 г",
+        "Яичные белки – 100 г",
+        "Пищевой краситель – 0,5 ч.л.",
+        "Сахар – 150 г",
+        "Вода – 40 мл",
+        "Маскарпоне – 250 г",
+        "Сахарная пудра (для крема) – 2 ст.л.",
+        "Ром (темный) – 1 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "Смешайте муку с пудрой и пересыпьте в блендер, перекрутите в течение 30 с.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте в муку с пудрой 50 г белка и размешайте лопаткой. Пока уберите в сторону.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "В сотейник насыпьте сахар (150 г) и добавьте воду. Помешивая, сварите сироп.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "В это же время перелейте в миску оставшиеся 50 г белка и взбейте миксером.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Температура сиропа должна быть примерно 110-114 градусов. Во время проверки не касайтесь щупом термометра дна сотейника, так как там температура выше. Сироп нужной температуры тонкой струйкой влейте во взбивающиеся белки, стараясь лить на стенку миски. Если влить все сразу, масса может опасть и меренга не получится. После того, как будет добавлен сироп, взбивайте меренгу еще пару минут, пока не получится плотная густая масса с пиками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "В миску с меренгой добавьте муку с пудрой и белком, размешайте лопаткой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-6-572x379_w.webp"
+        },
+        {
+          "description": "В процессе замеса добавьте краситель. Правильное тесто для макаронс будет медленно стекать с лопатки.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-7-572x379_w.webp"
+        },
+        {
+          "description": "Переложите тесто в кондитерский мешок и отсадите небольшие порции на силиконовый или тефлоновый коврик. Отсаживать нужно в шахматном порядке для лучшей циркуляции воздуха. Постелите полотенце на стол и постучите противнем с заготовками несколько раз. Так выйдет лишний воздух и сгладятся клювики на крышечках. Оставьте заготовки подсыхать на столе, пока они не перестанут липнуть к пальцу. Также можно поставить их в духовку на 40-50 градусов – тогда это будет быстрее. Как только крышечки подсохнут, запекайте их при 140 градусах в течение 14-16 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-8-572x379_w.webp"
+        },
+        {
+          "description": "В миску положите маскарпоне и взбейте его.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-9-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте сахарную пудру и взбивайте 30 с.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-10-572x379_w.webp"
+        },
+        {
+          "description": "Влейте темный ром и еще раз взбейте. Ром можно не добавлять, если среди дегустаторов есть дети.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-11-572x379_w.webp"
+        },
+        {
+          "description": "Переложите крем в кондитерский мешок.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-12-572x379_w.webp"
+        },
+        {
+          "description": "Готовым крышечкам макаронс дайте остыть на коврике, после чего аккуратно отделите их. Подберите похожие по диаметру пары. На одну часть нанесите крем и накройте второй половинкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-13-572x379_w.webp"
+        },
+        {
+          "description": "Готовые макаронс можно пробовать сразу или же убрать в холодильник и оставить на ночь. Пропитавшись кремом, десерт получится еще вкуснее!",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/12/recept-17937-shag-14-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Творожный мусс без яиц",
+      "typeDish": "десерты",
+      "productDish": "творог",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34180-1240x827_w.jpg",
+      "description": "Творог – идеальная основа для легких и диетических рецептов, если вы придерживаетесь правильного питания. Сегодня хочу поделиться с вами своим любимым муссом, который особенно хорош со свежими ягодами, джемом или шоколадом.",
+      "time": "20 мин.",
+      "portions": "4 порции",
+      "likes": 20,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "02.04.2023",
+      "ingredients": [
+        "Творог – 300 г",
+        "Йогурт – 100 г",
+        "Желатин – 10 г",
+        "Ванилин – 0.5 ч.л.",
+        "Заменитель сахара – 1 ч.л."
+      ],
+      "recipe": [
+        {
+          "description": "Замочите желатин по инструкции на 10-15 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34180-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Взбейте творог блендером, добавьте йогурт и снова взбейте.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34180-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте ванилин и заменитель сахара, медленно введите желатин и все перемешайте.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34180-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Выложите мусс в бокалы и дайте ему застыть в холодильнике.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-34180-shag-4-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Хачапури с творогом и сыром из слоеного теста",
+      "typeDish": "выпечка",
+      "productDish": "творог, блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-42536-scaled-1240x826_w.jpg",
+      "description": "Смешанная начинка из творога и сыра – отличное разнообразие, при всей его простоте. Сложно найти более удачный вариант, когда речь идет о грузинских хачапури. Кстати, а вы когда-нибудь пробовали готовить их из слоеного теста?",
+      "time": "35 мин.",
+      "portions": "2 порции",
+      "likes": 4,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "12.04.2023",
+      "ingredients": [
+        "Слоеное тесто – 300 г",
+        "Творог – 100 г",
+        "Сыр – 100 г",
+        "Укроп – 0.5 пучка",
+        "Яйца куриные – 1 штука"
+      ],
+      "recipe": [
+        {
+          "description": "Смешайте творог, тертый сыр и рубленый укроп.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-42536-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Раскатайте тесто, разрежьте пополам и по желанию придайте половинкам форму. На одну половинку выложите начинку, накройте второй и плотно защипните все края.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-42536-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Смажьте хачапури взбитым яйцом и выпекайте 25-30 минут в духовке при 180 градусах.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-42536-shag-3-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Классический рецепт блинов на молоке",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-2-1240x821_w.jpg",
+      "description": "Далеко не каждый умеет готовить по-настоящему вкусные блины. Трудности возникают еще на этапе приготовления теста. Сегодня я поделюсь проверенным классическим рецептом блинов на молоке. Они всегда получается тонкими, красивыми и ароматными!",
+      "time": "30 мин.",
+      "portions": "4 порции",
+      "likes": 25,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "20.03.2023",
+      "ingredients": [
+        "Молоко (теплое) – 2 стакана",
+        "Яйца куриные – 2 штуки",
+        "Мука – 180 г",
+        "Сахар – 1 ст.л.",
+        "Соль – по вкусу",
+        "Растительное масло – 2 ст.л.",
+        "Сливочное масло (для смазывания блинов) – 50 г"
+      ],
+      "recipe": [
+        {
+          "description": "В глубокую миску разбейте яйца, добавьте соль, сахар и взбейте венчиком до однородности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Влейте теплое молоко и хорошенько перемешайте.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Не прекращая перемешивание, добавьте муку. Тесто должно получиться густым и текучим, как жидкая сметана.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Влейте половину растительного масла, остальное оставьте для смазывания сковородки.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Смажьте сковородку растительным маслом и хорошо разогрейте. Влейте половину поварешки теста, равномерно распределяя его по поверхности наклонными движениями.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Обжарьте блинчик до золотистого цвета с обеих сторон.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-shag-6-572x379_w.webp"
+        },
+        {
+          "description": "Готовый блин выложите на тарелку и смажьте сливочным маслом. Повторите процедуру с остальным тестом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4789-shag-7-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Имбирное печенье",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-1-scaled-1240x827_w.jpg",
+      "description": "У Рождества звонкий смех, разноцветные блёсточки и запах имбирного печенья. Давайте готовить сладкое вместе, тем более, что у меня есть отличный и очень простой рецепт. Помимо имбиря и корицы другие специи можете менять по своему вкусу.",
+      "time": "45 мин.",
+      "portions": "30 порций",
+      "likes": 6,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "12.03.2023",
+      "ingredients": [
+        "Мука – 300 г",
+        "Яйца куриные – 1 штука",
+        "Сливочное масло – 120 г",
+        "Сода пищевая – 0,5 ч.л.",
+        "Молотый имбирь (без горки) – 1 ст.л.",
+        "Молотая корица – 0,5 ч.л.",
+        "Мускатный орех – 0,25 ч.л.",
+        "Молотый черный перец – 0,25 ч.л.",
+        "Бадьян (молотый) – 0,25 ч.л.",
+        "Сахар – 100 г",
+        "Соль – 0,25 ч.л."
+      ],
+      "recipe": [
+        {
+          "description": "Смешайте специи и соду. При необходимости разотрите их в ступе до порошкообразного состояния.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте просеянную муку и соль.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "В отдельной емкости разотрите мягкое масло с яйцом и сахаром.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте сухую заготовку с яично-масляной смесью и замесите тесто.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Сформируйте шар, заверните в пищевую пленку и уберите на 1,5-2 часа в холодильник.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Разделите тесто на три части. Одну оставьте для работы, остальное снова спрячьте в холодильник.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "На листе пергаментной бумаги раскатайте тонкий слой теста.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-7-572x381_w.webp"
+        },
+        {
+          "description": "Вырежьте вырубками печенье, лишнее тесто уберите.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-8-572x381_w.webp"
+        },
+        {
+          "description": "Перенесите лист на противень и отправьте на 5-7 минут в духовку, разогретую до 180 градусов. С остальным тестом проделайте то же самое.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-9-572x381_w.webp"
+        },
+        {
+          "description": "Когда печенье полностью остынет, можете украсить его айсингом или цветной глазурью.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12777-shag-10-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Круассаны с нутеллой",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-1-scaled-1240x826_w.jpg",
+      "description": "Начинки для круассанов могут быть самыми разными - сладкие, соленые и даже из разных ингредиентов. Но дети просто обожают круассаны с нутеллой. Их очень легко готовить. Рецепт уже перед вами, осталось лишь запастись всем необходимым!",
+      "time": "40 мин.",
+      "portions": "12 порций",
+      "likes": 1,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "12.02.2023",
+      "ingredients": [
+        "Слоеное тесто – 500 г",
+        "Нутелла – 12 ч.л.",
+        "Яичные желтки – 1 штука"
+      ],
+      "recipe": [
+        {
+          "description": "Разморозьте тесто при комнатной температуре.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Раскатайте, двигаясь только в одну сторону. Это позволит сохранить структуру слоев и тесто будет хорошо «расти».",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Полученный корж нарежьте одинаковыми треугольниками. Должно получиться 12 штук.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "На широкий край выложите 1 ч.л. нутеллы.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Бока подверните внутрь, чтобы начинка не вытекала. Аккуратно сверните неплотный рулет и зафиксируйте край. Повторите действия с остальными заготовками и начинкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Выложите круассаны на противень, застеленный пергаментной бумагой, и смажьте желтком.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "Выпекайте 10 минут в разогретой духовке при температуре 200 градусов, а затем еще 15 минут при 180 градусах.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12544-shag-7-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Аджарские хачапури из дрожжевого теста",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста, яйца",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-scaled-1240x827_w.jpg",
+      "description": "Это самый распространенный вариант приготовления хачапури по-аджарски. Конечно, дрожжевое тесто можно взять готовым, но я предлагаю сделать его своими руками. Это куда проще, чем кажется! Нужно только немного времени.",
+      "time": "4 ч. 0 мин.",
+      "portions": "5 порций",
+      "likes": 4,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "22.03.2023",
+      "ingredients": [
+        "Для теста:",
+        "Мука – 700 г",
+        "Вода – 300 мл",
+        "Молоко – 100 мл",
+        "Свежие дрожжи – 25 г",
+        "Яйца куриные – 1 штука",
+        "Растительное масло – 4 ст.л.",
+        "Сахар – 1 ст.л.",
+        "Соль – 1 ч.л.",
+        "Для начинки:",
+        "Адыгейский сыр – 350 г",
+        "Сулугуни – 150 г",
+        "Яйца куриные – 5-6 штук",
+        "Вода – 50 мл",
+        "Сливочное масло – 100 г"
+      ],
+      "recipe": [
+        {
+          "description": "Натрите оба вида сыра на терке и смешайте с водой до однородной массы.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте дрожжи и теплое молоко, и оставьте на 15-20 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте просеянную муку с солью, сахаром и водой. Добавьте молоко с дрожжами, яйцо и масло.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Долго вымешивайте тесто до однородности и оставьте в тепле на 2 часа.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Разделите тесто на 5-6 частей и оставьте еще на полчаса.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Раскатайте каждую часть в прямоугольник, защипните края лодочек и выложите сырную начинку.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "Оставьте хачапури еще на 15 минут, смажьте бортики желтком и отправьте их на 15-20 минут в духовку при 220 градусах.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-7-572x381_w.webp"
+        },
+        {
+          "description": "Сразу же в горячую начинку добавьте по желтку и кусочку масла.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/07/recept-41771-shag-8-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Сладкие пончики без яиц",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/03/recept-37858-2-scaled-1240x827_w.jpg",
+      "description": "Сложно назвать пончики диетическим блюдом, но все же есть варианты, при которых выпечка получается менее калорийной. Например, можно замесить сладкое тесто без яиц. Для этого рецепта понадобятся быстродействующие сухие дрожжи.",
+      "time": "1 ч. 0 мин.",
+      "portions": "4 порции",
+      "likes": 1,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "11.04.2023",
+      "ingredients": [
+        "Мука – 400 г",
+        "Сухие дрожжи – 1 ч.л.",
+        "Сахар – 3 ст.л.",
+        "Соль – на кончике ножа",
+        "Ванильный сахар – 1 пакетик",
+        "Вода (теплая) – 200 мл",
+        "Растительное масло (без запаха) – 400 мл"
+      ],
+      "recipe": [
+        {
+          "description": "Смешайте дрожжи, теплую воду, сахар и 2 ст.л. муки. Перемешайте и уберите на 15 минут в теплое место.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/03/recept-37858-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте просеянную муку, ванильный сахар, соль, опару и 2 ст.л. растительного масла.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/03/recept-37858-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Замесите мягкое тесто, накройте полотенцем и оставьте на 1 час при комнатной температуре.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/03/recept-37858-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Обомните тесто, раскатайте корж толщиной около 3 сантиметров и выдавите пончики.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/03/recept-37858-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Выложите пончики на доску, присыпанную мукой, и оставьте на 15 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/03/recept-37858-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Обжарьте пончики в раскаленном масле до золотистого цвета и выложите на бумажное полотенце.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/03/recept-37858-shag-6-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Заварные блины с творогом",
+      "typeDish": "выпечка, десерты",
+      "productDish": "блюда из теста, творог",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-1-1240x821_w.jpg",
+      "description": "Самые вкусные блины получаются из заварного теста. Готовить его совсем не сложно - весь процесс подробно описан в этом рецепте. Начинки могут быть разными, я предлагаю вариант со сладким творогом!",
+      "time": "30 мин.",
+      "portions": "4 порции",
+      "likes": 34,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "25.04.2023",
+      "ingredients": [
+        "Для теста:",
+        "Молоко – 1 стакан",
+        "Вода (кипяток) – 1 стакан",
+        "Яйца куриные – 3 штуки",
+        "Мука – 250 г",
+        "Ванилин – на кончике ножа",
+        "Сахар – 3 ст.л.",
+        "Соль – 0,25 ч.л.",
+        "Растительное масло – 2 ст.л.",
+        "Для начинки:",
+        "Творог – 300 г",
+        "Сметана – 50 г",
+        "Сахар – 2 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "В глубокую миску разбейте яйца, всыпьте соль, сахар и ванилин.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте теплое молоко, просеянную муку и аккуратно перемешайте до однородности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Влейте крутой кипяток, половину растительного масла и перемешайте еще раз.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Смажьте сковородку растительным маслом и хорошенько разогрейте. Влейте полповарешки теста на сковороду, равномерно распределяя его наклонными движениями по всей поверхности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Обжаривайте до золотистого цвета, затем переверните и продолжайте жарить с другой стороны. Повторите действия с остальным тестом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Измельчите в блендере творог со сметаной и сахаром.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-6-572x379_w.webp"
+        },
+        {
+          "description": "Каждый блинчик щедро смажьте творожной начинкой и заверните трубочкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-7-572x379_w.webp"
+        },
+        {
+          "description": "Подавать к столу можно целиком или разрезая блинчик пополам.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-4798-shag-8-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Маффины «Красный бархат»",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-1240x821_w.jpg",
+      "description": "Маффины «Красный бархат» – яркий и аппетитный десерт, который достаточно просто готовится. Чтобы получить красивый цвет выпечки, нужно заранее позаботиться о красителе – он должен быть хорошего качества.",
+      "time": "1 ч. 10 мин.",
+      "portions": "15 штук",
+      "likes": 14,
+      "comments": [],
+      "author": "Екатерина Паршина",
+      "date": "10.04.2023",
+      "ingredients": [
+        "Яйца куриные – 1 штука",
+        "Сахар – 70 г",
+        "Растительное масло – 70 мл",
+        "Соль – 1 щепотка",
+        "Кефир – 100 мл",
+        "Пищевой краситель (красный) – 1 ст.л.",
+        "Какао (порошок) – 2 ст.л.",
+        "Мука (пшеничная) – 180 г",
+        "Разрыхлитель теста – 1 ч.л."
+      ],
+      "recipe": [
+        {
+          "description": "В миску вбейте куриное яйцо, добавьте кефир, растительное масло и краситель.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Тщательно взбейте жидкие ингредиенты венчиком.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "В глубокой отдельной миске смешайте сухие ингредиенты, используя венчик.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Объедините сухие и влажные ингредиенты, размешайте до получения однородного густого теста без комочков.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Переложите тесто в кулинарный мешок – так удобнее распределять тесто по формочкам.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Разместите в формах капсулы для маффинов, наполните их тестом, не доходя до самого верха.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-shag-6-572x379_w.webp"
+        },
+        {
+          "description": "Запекайте десерт при 180 градусах в течение 20-25 минут. Готовность проверьте деревянной шпажкой – на выходе она должна быть сухой. Перед подачей дайте маффинам остыть, после посыпьте сахарной пудрой или сделайте шапочки из крема.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6648-shag-7-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Бисквитное печенье с лимонной цедрой",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12844-1-1240x821_w.jpg",
+      "description": "Хотите приготовить что-нибудь к чаю? Испеките бисквитное печенье с лимонной цедрой. Можете смело готовить сразу две, а то и три порции - остановиться будет просто невозможно. Мягкое тесто с восхитительным ароматом буквально тает во рту!",
+      "time": "25 мин.",
+      "portions": "12 порции",
+      "likes": 8,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "12.04.2023",
+      "ingredients": [
+        "Мука – 1 стакан",
+        "Яйца куриные – 3 штуки",
+        "Сливочное масло (мягкое) – 120 г",
+        "Лимонная цедра – 1 ч.л.",
+        "Разрыхлитель теста – 0,5 ч.л.",
+        "Ванилин – на кончике ножа",
+        "Сахар – 100 г",
+        "Сахарная пудра (для обсыпки) – 2 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "В глубокой миске взбейте яйца с сахаром до пышной пены.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12844-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте растопленное масло, ванилин, цедру лимона и муку, смешанную с разрыхлителем. Вымешайте все до однородности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12844-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Накройте миску пищевой пленкой и уберите на 30 минут в холодильник.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12844-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Перемешайте тесто и выложите в силиконовые формочки, заполняя лишь на две трети.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12844-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Выпекайте 10 минут в духовке, разогретой до 180 градусов. Готовое печенье оставьте в духовке на 10-15 минут, а затем выложите на тарелку и присыпьте сахарной пудрой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-12844-shag-5-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Пицца с сосисками и грибами",
+      "typeDish": "выпечка",
+      "productDish": "блюда из теста, пицца",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-1-620x411_w.webp",
+      "description": "Имея под рукой уже готовое слоеное тесто и несколько простых продуктов, можно приготовить вкусную домашнюю пиццу с сосисками и грибами. Колбасу и грибы можно взять любые, которые есть у вас в распоряжении.",
+      "time": "40 мин.",
+      "portions": "6 порций",
+      "likes": 8,
+      "comments": [],
+      "author": "Екатерина Паршина",
+      "date": "11.04.2023",
+      "ingredients": [
+        "Слоеное тесто – 120 г",
+        "Сосиски – 3 штуки",
+        "Помидоры – 1 штука",
+        "Грибы – 4 штуки",
+        "Сыр (твердый) – 70 г",
+        "Кетчуп – 4 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "Противень по желанию можно застелить фольгой. Затем выложите на фольгу тесто и положите на края кусочки сыра. Сделайте сырные бортики.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-shag-1-620x411_w.webp"
+        },
+        {
+          "description": "Намажьте тесто кетчупом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-shag-2-620x411_w.webp"
+        },
+        {
+          "description": "Помидор нарежьте тонкими кружочками и выложите сверху на тесто.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-shag-3-620x411_w.webp"
+        },
+        {
+          "description": "Сосиски нарежьте тонкими ломтиками и выложите на тесто.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-shag-4-620x411_w.webp"
+        },
+        {
+          "description": "Грибы помойте и нарежьте пластинками. Выложите поверх сосисок и помидоров.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-shag-5-620x411_w.webp"
+        },
+        {
+          "description": "Сделайте слой из тертого сыра и поставьте заготовку в духовку. Запекайте при 180 градусах в течение 12-15 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-shag-6-620x411_w.webp"
+        },
+        {
+          "description": "Нарежьте горячую пиццу порционными кусочками и подавайте на стол со свежей зеленью.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-3871-shag-7-620x411_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Суп с фрикадельками",
+      "typeDish": "супы",
+      "productDish": "овощи, блюда из птицы",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-1-1240x821_w.jpg",
+      "description": "Сложно приготовить такое блюдо, которое понравилось бы всем домочадцам. Сложно, но возможно! В моей семье это простой суп с фрикадельками. Готовлю его без зажарки и лука. Он получается легким, сытным и очень вкусным.",
+      "time": "25 мин.",
+      "portions": "5 порций",
+      "likes": 40,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "11.04.2023",
+      "ingredients": [
+        "Куриный фарш – 400 г",
+        "Картофель – 200 г",
+        "Морковь – 1 штука",
+        "Лавровый лист – 1 штука",
+        "Соль – по вкусу",
+        "Вода – 1,5 л",
+        "Петрушка – 2 веточки"
+      ],
+      "recipe": [
+        {
+          "description": "Картофель очистите от кожуры и нарежьте мелкими кубиками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Морковь очистите и нарежьте тонкими кружочками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Куриный фарш посолите и хорошенько вымешайте руками до однородности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Смачивая руки водой, отщипывайте от фарша небольшие кусочки и формируйте кругленькие шарики.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Вскипятите воду, всыпьте фрикадельки, лавровый лист и варите 5 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-shag-5-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте картофель, морковь и продолжайте готовить еще 10 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-shag-6-572x379_w.webp"
+        },
+        {
+          "description": "Суп посолите, присыпьте измельченной петрушкой и выключите.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-6735-shag-7-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Куриный крем-суп",
+      "typeDish": "супы",
+      "productDish": "блюда из курицы",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15950-scaled-1240x827_w.jpg",
+      "description": "Из курицы можно приготовить не только обыкновенные супы и бульоны, но и нежнейший крем-суп. Рассказываю, как это сделать, чтобы вкус был ярким и выразительным. Подавайте его со специями, зеленью и кусочками мяса.",
+      "time": "40 мин.",
+      "portions": "4 порции",
+      "likes": 12,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "12.04.2023",
+      "ingredients": [
+        "Куриное филе – 300 г",
+        "Картофель – 250 г",
+        "Лук – 150 г",
+        "Морковь – 100 г",
+        "Чеснок – 2 зубчика",
+        "Вода – 800 мл",
+        "Сливки – 200 мл",
+        "Молотый черный перец – 0.5 ч.л.",
+        "Соль – 1 ч.л."
+      ],
+      "recipe": [
+        {
+          "description": "Взбейте блендером сырую курицу и примерно 300 мл воды до однородной кашицы.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15950-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Мелко нарежьте лук, натрите морковь на терке и жарьте 5-6 минут. Добавьте чеснок и жарьте еще пару минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15950-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Залейте зажарку оставшейся водой и добавьте мелко нарезанный картофель. Посолите, поперчите и варите 5-7 минут на среднем огне.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15950-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Влейте куриную массу, тщательно перемешайте и варите суп еще 5 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15950-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Слейте часть жидкости, измельчите все блендером и добавьте сливки. Отрегулируйте консистенцию слитым бульоном.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15950-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Снова доведите суп до кипения и проварите еще пару минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15950-shag-6-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Морковно-яблочный суп-пюре",
+      "typeDish": "супы",
+      "productDish": "овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32210-1240x821_w.jpg",
+      "description": "От супа-пюре из моркови и яблок будут в восторге даже дети, которых сложно уговорить съесть овощи. В зависимости от специй, которые вы используете, это блюдо можно превратить практически в десерт. Подавать его советую с любым мягким сыром по вкусу.",
+      "time": "25 мин.",
+      "portions": "4 порции",
+      "likes": 24,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "27.03.2023",
+      "ingredients": [
+        "Морковь – 4 штуки",
+        "Яблоки – 2 штуки",
+        "Овощной бульон – 300 мл",
+        "Сливки – 200 мл",
+        "Специи и приправы – 2 ч.л.",
+        "Оливковое масло – 2 ст.л."
+      ],
+      "recipe": [
+        {
+          "description": "Крупно нарежьте морковь и яблоки, и протушите на масле до мягкости.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32210-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Влейте бульон, проварите пару минут и измельчите все блендером.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32210-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Влейте горячие сливки до желаемой консистенции, приправьте и перемешайте суп.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/02/recept-32210-shag-3-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Куриный суп с брокколи и картошкой",
+      "typeDish": "супы",
+      "productDish": "блюда из курицы, овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15959-scaled-1240x827_w.jpg",
+      "description": "Это восхитительный весенний рецепт куриного супа. Но на самом деле его легко приготовить в любое время года. Картошка и морковь доступны всегда, а брокколи с зеленым горошком моно взять из заморозки.",
+      "time": "1 ч. 0 мин.",
+      "portions": "4 порции",
+      "likes": 7,
+      "comments": [],
+      "author": "Ирина Ковалева",
+      "date": "11.04.2023",
+      "ingredients": [
+        "Курица – 400 г",
+        "Картофель – 3 штуки",
+        "Брокколи – 200 г",
+        "Зеленый горошек – 120 г",
+        "Морковь – 1 штука",
+        "Специи и приправы – 1 ч.л."
+      ],
+      "recipe": [
+        {
+          "description": "Нарежьте курицу кусочками, залейте водой и отварите до готовности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15959-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте нарезанный кубиками картофель, а через 3-5 минут – морковь и брокколи.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15959-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Еще через 5 минут добавьте горошек со специями, и через 3-4 минуты снимите суп с огня.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-15959-shag-3-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Идеальный молочный суп с вермишелью",
+      "typeDish": "супы",
+      "productDish": "молоко",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9322-1-1240x827_w.jpg",
+      "description": "Все никак не получается приготовить вкусный молочный суп с вермишелью? Тогда отварите макаронные изделия отдельно в воде и добавьте в подготовленное молоко. Это позволит добиться нужной густоты и значительно упростит процесс приготовления.",
+      "time": "20 мин.",
+      "portions": "5 порций",
+      "likes": 21,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "14.02.2023",
+      "ingredients": [
+        "Молоко – 1 л",
+        "Вода – 2 л",
+        "Вермишель – 200 г",
+        "Соль – 0,25 ч.л.",
+        "Сахар – 2 ст.л.",
+        "Ванилин – на кончике ножа",
+        "Сливочное масло – 40 г"
+      ],
+      "recipe": [
+        {
+          "description": "Вскипятите подсоленную воду, всыпьте вермишель и отварите до готовности. Точное время приготовления указано производителем на упаковке.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9322-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Откиньте вермишель на дуршлаг, промойте и смешайте со сливочным маслом.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9322-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "В отдельной кастрюле вскипятите молоко, добавьте сахар, ванилин и проварите все вместе 5 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9322-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте готовую вермишель, перемешайте и через 1 минуту выключите. Настаивайте молочный суп под крышкой еще 10 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9322-shag-4-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Красный борщ",
+      "typeDish": "супы",
+      "productDish": "блюда из мяса, овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-1-1240x827_w.jpg",
+      "description": "Хотите сварить по-настоящему красивый и вкусный красный борщ? Один маленький секрет и блюдо станет самым ярким на всем столе. Никакой магии в этом нет, просто понадобится небольшая долька лимона и пара дополнительных минут!",
+      "time": "2ч. 20 мин.",
+      "portions": "8 порций",
+      "likes": 21,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "18.03.2023",
+      "ingredients": [
+        "Говяжья грудинка (на кости) – 500 г",
+        "Свекла – 300 г",
+        "Картофель – 4 штуки",
+        "Капуста – 300 г",
+        "Морковь – 1 штука",
+        "Лук репчатый – 1 штука",
+        "Чеснок – 3 зубчика",
+        "Томатная паста – 3 ст.л.",
+        "Растительное масло – 40 мл",
+        "Душистый перец – 3 горошины",
+        "Лавровый лист – 2 штуки",
+        "Лимон – 1 долька",
+        "Соль – по вкусу",
+        "Вода (фильтрованная) – 3,2 л"
+      ],
+      "recipe": [
+        {
+          "description": "Говядину нарежьте крупными кусками, промойте и варите с лавровым листом 1,5 часа. Снимайте пенку, которая будет появляться в процессе.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Картофель, свеклу, лук очистите и нарежьте. Морковь натрите на крупной терке, капусту нашинкуйте соломкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Свеклу сложите в отдельную миску, выдавите сок лимона, перемешайте и уберите в сторону на 10 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Разогрейте на сковороде растительное масло, всыпьте лук с морковью и обжаривайте до золотистого цвета.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте свеклу, раздавленные горошины душистого перца и готовьте еще 7 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Смешайте томатную пасту, 200 мл горячего бульона и влейте в сковородку. Накройте крышкой и тушите 15 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "В кастрюлю с мясом всыпьте картофель, капусту и зажарку. Варите 10 минут на среднем огне.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-7-1-572x381_w.webp"
+        },
+        {
+          "description": "Посолите и снимите с огня. Готовый борщ подавайте, присыпая измельченной зеленью.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/09/recept-2934-shag-8-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Молочный суп с шампиньонами и плавленым сыром",
+      "typeDish": "супы",
+      "productDish": "молоко",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-1-1240x827_w.jpg",
+      "description": "Хотите попробовать невероятно вкусное блюдо? Сварите молочный суп с шампиньонами и плавленым сыром. Гарантирую, вы будете в восторге от удивительного сочетания вкусов, яркого аромата и простоты приготовления.",
+      "time": "25 мин.",
+      "portions": "4 порции",
+      "likes": 22,
+      "comments": [],
+      "author": "Ольга Безносюк",
+      "date": "22.01.2023",
+      "ingredients": [
+        "Молоко – 1 л",
+        "Плавленый сыр – 2 штуки",
+        "Шампиньоны – 400 г",
+        "Лук репчатый – 1 штука",
+        "Сливочное масло – 50 г",
+        "Мускатный орех (молотый) – 0,25 ч.л.",
+        "Соль – по вкусу",
+        "Вода – 100 мл"
+      ],
+      "recipe": [
+        {
+          "description": "Шампиньоны промойте и нарежьте небольшими кусочками.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Репчатый лук очистите от шелухи и измельчите.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Растопите масло на сковороде, всыпьте лук и обжарьте до золотистого цвета.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте шампиньоны и продолжайте готовить до тех пор, пока не испарится влага.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-4-572x381_w.webp"
+        },
+        {
+          "description": "В кастрюлю влейте воду и молоко. Доведите до кипения.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-5-572x381_w.webp"
+        },
+        {
+          "description": "Немного грибов отложите для украшения, остальные всыпьте в кастрюлю и проварите 10 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-6-572x381_w.webp"
+        },
+        {
+          "description": "Измельчите массу погружным блендером, добавьте плавленый сыр и прогрейте на слабом огне еще 5 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-7-572x381_w.webp"
+        },
+        {
+          "description": "Посолите, присыпьте молотым мускатным орехом и оставьте на 10 минут под крышкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-8-572x381_w.webp"
+        },
+        {
+          "description": "При подаче украсьте суп жареными шампиньонами.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-9378-shag-9-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Сырный суп с говядиной и овощами",
+      "typeDish": "супы",
+      "productDish": "блюда из мяса, овощи",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13872-1240x827_w.jpg",
+      "description": "Мой любимый сырный суп – очень сытный и ароматный. Говядина и свежие овощи идеально сочетаются с его кремовой текстурой. Главное, выбирайте сыр, который быстро и хорошо плавится. Украсьте блюдо рубленой зеленью или зеленым луком.",
+      "time": "1 ч. 30 мин",
+      "portions": "2 порции",
+      "likes": 15,
+      "comments": [],
+      "author": "Карина Михайлова",
+      "date": "01.02.2023",
+      "ingredients": [
+        "Говядина – 300 г",
+        "Болгарский перец – 2 штуки",
+        "Помидоры – 2 штуки",
+        "Зелень – 0.5 пучка",
+        "Картофель – 1 штука",
+        "Плавленый сыр – 2 штуки",
+        "Специи и приправы – 1 ч.л."
+      ],
+      "recipe": [
+        {
+          "description": "Нарежьте говядину мелкими кусочками и отварите до готовности около часа.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13872-shag-1-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте нарезанный картофель и варите еще 10 минут.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13872-shag-2-572x381_w.webp"
+        },
+        {
+          "description": "Добавьте перец, через 5 минут – помидоры, а еще через 5 – плавленый сыр.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13872-shag-3-572x381_w.webp"
+        },
+        {
+          "description": "Проварите суп, чтобы сыр полностью расплавился. Приправьте, перемешайте и посыпьте зеленью.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/11/recept-13872-shag-4-572x381_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Яйца, фаршированные лососем и творожным сыром",
+      "typeDish": "закуски",
+      "productDish": "яйца",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2022/01/recept-24191-1240x821_w.jpg",
+      "description": "Яйца, фаршированные лососем и творожным сыром – простая в приготовлении и очень вкусная закуска. Блюдо будет выглядеть еще более аппетитно, если выкладывать начинку через кулинарный мешок с помощью фигурной насадки.",
+      "time": "20 мин.",
+      "portions": "4 порции",
+      "likes": 11,
+      "comments": [],
+      "author": "Екатерина Паршина",
+      "date": "04.02.2023",
+      "ingredients": [
+        "Яйца куриные – 5-6 штук",
+        "Творожный сыр – 70 г",
+        "Лосось (копченый) – 70 г",
+        "Укроп – 5-6 веточек",
+        "Специи и приправы – по вкусу"
+      ],
+      "recipe": [
+        {
+          "description": "Сварите яйца вкрутую в подсоленной воде. Можно сделать это заранее. Снимите скорлупу с яиц, затем разрежьте их на половинки, удалите желтки.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/01/recept-24191-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Отправьте желтки в чашу блендера. Туда же положите творожный сыр и кусочки копченого лосося. По желанию бросьте пару щепоток специй. Измельчайте до получения однородной пасты.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/01/recept-24191-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Переложите пасту в кулинарный мешок и наполните половинки яиц начинкой.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/01/recept-24191-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте веточки свежего укропа и подавайте закуску.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2022/01/recept-24191-shag-4-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Фаршированные яйца с тунцом",
+      "typeDish": "закуски",
+      "productDish": "яйца",
+      "image_url": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8008-1240x821_w.jpg",
+      "description": "Фаршированные яйца с тунцом – очень вкусное, нежное, а еще и полезное сочетание. Тем более они готовятся очень быстро, особенно если сварить яйца заранее. Такая закуска всегда уместна на праздничном столе и выручит, если гости нагрянули неожиданно.",
+      "time": "15 мин.",
+      "portions": "4 порции",
+      "likes": 14,
+      "comments": [],
+      "author": "Наталья Белова",
+      "date": "03.02.2023",
+      "ingredients": [
+        "Яйца куриные – 6 штук",
+        "Тунец (консервированный) – 1 банка",
+        "Майонез – 1 ст.л.",
+        "Специи и приправы – 0.5 ч.л.",
+        "Зеленый лук – 2 пера"
+      ],
+      "recipe": [
+        {
+          "description": "Сварите яйца вкрутую в соленой воде, чтобы они не потрескались.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8008-shag-1-572x379_w.webp"
+        },
+        {
+          "description": "Остудите их в холодной воде и аккуратно почистите, чтобы не повредить белок.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8008-shag-2-572x379_w.webp"
+        },
+        {
+          "description": "Разрежьте каждое яйцо пополам, достаньте желтки и выложите их в миску.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8008-shag-3-572x379_w.webp"
+        },
+        {
+          "description": "Добавьте тунец, специи и майонез, и тщательно разомните все вилкой до однородности.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8008-shag-4-572x379_w.webp"
+        },
+        {
+          "description": "Наполните белки начинкой и украсьте мелко нарезанным зеленым луком.",
+          "img": "https://i.lefood.menu/wp-content/uploads/w_images/2021/10/recept-8008-shag-5-572x379_w.webp"
+        }
+      ]
+    },
+    {
+      "id": 65,
       "name": "",
       "typeDish": "",
       "productDish": "",
@@ -1299,7 +3165,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 66,
       "name": "",
       "typeDish": "",
       "productDish": "",
