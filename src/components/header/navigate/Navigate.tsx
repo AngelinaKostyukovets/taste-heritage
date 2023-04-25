@@ -21,9 +21,9 @@ export default function Navigate() {
     setSearch?.(newValue)
   }
 
-  useEffect(() => {
-    fetchData()
-  }, [debounceSearch])
+  const onKeyDownSearch = (event: React.KeyboardEvent<HTMLElement>) => {
+    if (event.code === 'Enter') fetchData()
+  }
 
   return (
     <S.container>
@@ -76,6 +76,7 @@ export default function Navigate() {
           <S.search
             value={search}
             onChange={onChangeSearch}
+            onKeyDown={onKeyDownSearch}
             type="text"
             placeholder="Поиск"
           />

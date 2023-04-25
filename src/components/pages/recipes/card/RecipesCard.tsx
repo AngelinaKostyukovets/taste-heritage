@@ -1,7 +1,9 @@
+import { useNavigate } from 'react-router-dom'
 import { CommentOutlined, HeartOutlined } from '@ant-design/icons'
 import S from './RecipesCard.styled'
 
 interface RecipesCardProps {
+  id: number
   img: string
   category: string
   name: string
@@ -11,6 +13,7 @@ interface RecipesCardProps {
 }
 
 export default function RecipesCard({
+  id,
   img,
   category,
   name,
@@ -18,10 +21,14 @@ export default function RecipesCard({
   likes,
   comments,
 }: RecipesCardProps) {
+  const navigate = useNavigate()
   const needCategory = category.charAt(0).toUpperCase() + category.slice(1)
+  const handleClick = () => {
+    navigate(`/recipes/${id}`)
+  }
 
   return (
-    <S.container>
+    <S.container onClick={handleClick}>
       <S.image>
         <img src={img} alt={name} />
       </S.image>
