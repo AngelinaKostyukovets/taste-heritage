@@ -3,10 +3,11 @@ import { ThemeProvider } from 'styled-components'
 import { Route, Routes } from 'react-router-dom'
 import { GlobalStyle } from './globalStyle'
 import Home from './pages/home/Home'
+import RecipeItem from './pages/recipeItem/RecipeItem'
+import Recipes from './pages/recipes/Recipes'
 import { darkTheme, lightTheme } from '../theme/theme'
 import Header from './header/Header'
 import { SortRecipesContext } from '../hooks/useFilterRecipes'
-import Recipes from './pages/recipes/Recipes'
 import Footer from './footer/Footer'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/recipes/:id" element={<RecipeItem />} />
           <Route
             path="/typeDishes"
             element={<Recipes redTitle="Типы" otherTitle="блюд" />}

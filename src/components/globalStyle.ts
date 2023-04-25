@@ -26,6 +26,11 @@ export const styles = {
     font-style: normal;
     font-weight: 400;
   `,
+  manrope: css`
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  `,
 }
 
 export const GlobalStyle = createGlobalStyle`  

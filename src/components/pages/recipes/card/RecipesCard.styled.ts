@@ -8,6 +8,10 @@ const S = {
     border-radius: ${styles.radius};
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    }
   `,
   image: styled.div`
     & img {

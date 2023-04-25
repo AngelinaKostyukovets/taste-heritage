@@ -7,6 +7,7 @@ import RedTitle from '../../redTitle/RedTitle'
 import RecipesFilter from './filter/RecipesFilter'
 import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
 import { recipesActions } from '../../../store/recipes/recipesSlice'
+import Loader from '../../ui/loader/Loader'
 
 interface RecipesProps {
   redTitle: string
@@ -15,6 +16,7 @@ interface RecipesProps {
 
 export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
   const recipes = useAppSelector((state) => state.recipes.recipes)
+  const loading = useAppSelector((state) => state.recipes.loading)
   const dispatch = useAppDispatch()
   const [page, setPage] = useState<number>(1)
   const { sortRecipes, typeDish, productDish } = useFilterRecipes()
@@ -45,6 +47,7 @@ export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
 
   return (
     <S.container>
+      {loading && <Loader />}
       <S.title>
         <RedTitle redText={redTitle} otherText={otherTitle} />
       </S.title>
@@ -55,6 +58,7 @@ export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
       <S.cards>
         {recipes.map((recipe) => (
           <RecipesCard
+            id={recipe.id}
             img={recipe.image_url}
             category={recipe.typeDish}
             name={recipe.name}
