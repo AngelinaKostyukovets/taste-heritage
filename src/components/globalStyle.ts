@@ -10,6 +10,34 @@ export const styles = {
     max-width: 1400px;
     margin: 0 auto;
   `,
+  formContainer: css`
+    max-width: 540px;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 12px;
+  `,
+  formTitle: css`
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 32px;
+  `,
+  switchForm: css`
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #787878;
+    padding: 16px 0;
+    background: #f5f5f5;
+    border-radius: 0px 0px 16px 16px;
+    & span {
+      color: #c95b5b;
+      cursor: pointer;
+    }
+  `,
   radius: '24px',
   roboto: css`
     font-family: 'Roboto', sans-serif;

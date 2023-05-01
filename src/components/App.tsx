@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react'
 import { ThemeProvider } from 'styled-components'
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import { GlobalStyle } from './globalStyle'
+
 import Home from './pages/home/Home'
 import RecipeItem from './pages/recipeItem/RecipeItem'
 import Recipes from './pages/recipes/Recipes'
@@ -9,11 +10,16 @@ import { darkTheme, lightTheme } from '../theme/theme'
 import Header from './header/Header'
 import { SortRecipesContext } from '../hooks/useFilterRecipes'
 import Footer from './footer/Footer'
+import Login from './forms/login/Login'
+import SignUp from './forms/signUp/SignUp'
+import Account from './pages/account/Account'
+import { useAuth } from '../hooks/useAuth'
 
 function App() {
   const [sort, setSort] = useState<string>('likes')
   const [type, setType] = useState<string>('')
   const [product, setProduct] = useState<string>('')
+  const { isAuth } = useAuth()
   const sortValue = useMemo(
     () => ({
       sortRecipes: sort,
@@ -32,6 +38,13 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          {isAuth ? (
+            <Route path="/account" element={<Account />} />
+          ) : (
+            <Route path="/account" element={<Navigate to="/" />} />
+          )}
+          <Route path="/login" element={<Login />} />
+          <Route path="/signUp" element={<SignUp />} />
           <Route path="/recipes/:id" element={<RecipeItem />} />
           <Route
             path="/typeDishes"

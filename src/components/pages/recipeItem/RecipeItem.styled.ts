@@ -17,6 +17,7 @@ const S = {
   `,
   type: styled.div`
     color: red;
+    text-transform: capitalize;
   `,
   date: styled.div`
     ${styles.manrope};

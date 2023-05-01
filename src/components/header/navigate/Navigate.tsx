@@ -3,14 +3,16 @@ import S from './Navigate.styled'
 import MenuDropdown from './menuDropdown/MenuDropdown'
 import { useAppDispatch } from '../../../store/store'
 import { recipesActions } from '../../../store/recipes/recipesSlice'
-import useDebounce from '../../../hooks/useDebounce'
+// import useDebounce from '../../../hooks/useDebounce'
 import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
+import { useAuth } from '../../../hooks/useAuth'
 
 export default function Navigate() {
   const { sortRecipes, setTypeDish, setProductDish } = useFilterRecipes()
   const dispatch = useAppDispatch()
   const [search, setSearch] = useState<string>('')
-  const debounceSearch = useDebounce(search, 1000)
+  // const debounceSearch = useDebounce(search, 1000)
+  const { isAuth, userFI } = useAuth()
 
   const fetchData = () => {
     dispatch(recipesActions.getRecipesList({ sortRecipes, search }))
@@ -81,12 +83,20 @@ export default function Navigate() {
             placeholder="Поиск"
           />
         </li>
-        <li>
-          <S.link to="/login">Войти</S.link>
-        </li>
-        <li>
-          <S.link to="signUp">Регистрация</S.link>
-        </li>
+        {isAuth ? (
+          <li>
+            <S.link to="/account">{userFI}</S.link>
+          </li>
+        ) : (
+          <>
+            <li>
+              <S.link to="/login">Войти</S.link>
+            </li>
+            <li>
+              <S.link to="signUp">Регистрация</S.link>
+            </li>
+          </>
+        )}
       </S.menu>
     </S.container>
   )

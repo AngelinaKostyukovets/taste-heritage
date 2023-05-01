@@ -22,7 +22,6 @@ export default function RecipesCard({
   comments,
 }: RecipesCardProps) {
   const navigate = useNavigate()
-  const needCategory = category.charAt(0).toUpperCase() + category.slice(1)
   const handleClick = () => {
     navigate(`/recipes/${id}`)
   }
@@ -33,7 +32,7 @@ export default function RecipesCard({
         <img src={img} alt={name} />
       </S.image>
       <S.textContent>
-        <S.category>{needCategory}</S.category>
+        <S.category>{category}</S.category>
         <S.title>{name}</S.title>
         <S.describtion>{description}</S.describtion>
         <S.space>
