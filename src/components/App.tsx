@@ -10,8 +10,6 @@ import { darkTheme, lightTheme } from '../theme/theme'
 import Header from './header/Header'
 import { SortRecipesContext } from '../hooks/useFilterRecipes'
 import Footer from './footer/Footer'
-import Login from './forms/login/Login'
-import SignUp from './forms/signUp/SignUp'
 import Account from './pages/account/Account'
 import { useAuth } from '../hooks/useAuth'
 
@@ -43,8 +41,6 @@ function App() {
           ) : (
             <Route path="/account" element={<Navigate to="/" />} />
           )}
-          <Route path="/login" element={<Login />} />
-          <Route path="/signUp" element={<SignUp />} />
           <Route path="/recipes/:id" element={<RecipeItem />} />
           <Route
             path="/typeDishes"

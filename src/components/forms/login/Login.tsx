@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
 import { Formik } from 'formik'
+import { CloseOutlined } from '@ant-design/icons'
 import validationSchemaLogin from '../validation/validationSchemaLogin'
 import S from './Login.styled'
 import Input from '../../ui/input/Input'
@@ -13,7 +14,12 @@ interface DataForm {
   password: string
 }
 
-export default function SignUp() {
+interface LoginProps {
+  onClick: (value: (prev: boolean) => boolean) => void
+  onSwitch: (value: (prev: boolean) => boolean) => void
+}
+
+export default function Login({ onClick, onSwitch }: LoginProps) {
   const dispatch = useAppDispatch()
   const navigate = useNavigate()
 
@@ -40,45 +46,62 @@ export default function SignUp() {
   }
 
   return (
-    <S.container>
-      <Formik
-        initialValues={initialValues}
-        validationSchema={validationSchemaLogin}
-        onSubmit={handleSubmit}
-      >
-        {({ errors, touched, isValid }) => (
-          <S.form>
-            <S.title>Вход</S.title>
-            <Input
-              idInput="email"
-              typeInput="email"
-              text="E-mail"
-              name="email"
-              errors={errors.email}
-              touched={touched.email}
-            />
-            <Input
-              idInput="password"
-              typeInput="password"
-              text="Пароль"
-              name="password"
-              errors={errors.password}
-              touched={touched.password}
-            />
-            <div className="form-group">
-              <Button
-                typeButton="submit"
-                textBtn="Войти"
-                isValid={isValid}
-                classBtn="submit"
+    <>
+      <S.backdrope />
+      <S.container>
+        <Formik
+          initialValues={initialValues}
+          validationSchema={validationSchemaLogin}
+          onSubmit={handleSubmit}
+        >
+          {({ errors, touched }) => (
+            <S.form>
+              <S.close
+                onClick={(event) => {
+                  event.preventDefault()
+                  onClick((prev) => !prev)
+                }}
+              >
+                <CloseOutlined />
+              </S.close>
+              <S.title>Вход</S.title>
+              <Input
+                idInput="email"
+                typeInput="email"
+                text="E-mail"
+                name="email"
+                errors={errors.email}
+                touched={touched.email}
               />
-            </div>
-          </S.form>
-        )}
-      </Formik>
-      <S.signUp>
-        Нет аккаунта? <span>Зарегестрируйтесь</span>
-      </S.signUp>
-    </S.container>
+              <Input
+                idInput="password"
+                typeInput="password"
+                text="Пароль"
+                name="password"
+                errors={errors.password}
+                touched={touched.password}
+              />
+              <div className="form-group">
+                <Button typeButton="submit" textBtn="Войти" classBtn="submit" />
+              </div>
+            </S.form>
+          )}
+        </Formik>
+        <S.signUp>
+          Нет аккаунта?
+          <span
+            role="link"
+            tabIndex={0}
+            onClick={(event) => {
+              event.preventDefault()
+              onClick((prev) => !prev)
+              onSwitch((prev) => !prev)
+            }}
+          >
+            Зарегестрируйтесь
+          </span>
+        </S.signUp>
+      </S.container>
+    </>
   )
 }

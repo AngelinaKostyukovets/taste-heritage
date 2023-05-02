@@ -1,15 +1,10 @@
 import { LoadingOutlined } from '@ant-design/icons'
 import styled from 'styled-components'
+import { styles } from '../../globalStyle'
 
 const S = {
   backdrop: styled.div`
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: grey;
-    opacity: 0.5;
+    ${styles.backdrop};
   `,
   loaderContainer: styled.div`
     position: absolute;

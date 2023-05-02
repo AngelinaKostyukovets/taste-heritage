@@ -11,10 +11,15 @@ export const styles = {
     margin: 0 auto;
   `,
   formContainer: css`
+    position: fixed;
+
     max-width: 540px;
     width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: #ffffff;
-    margin: 0 auto;
+    z-index: 2;
     border-radius: 12px;
   `,
   formTitle: css`
@@ -58,6 +63,28 @@ export const styles = {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: 400;
+  `,
+  close: css`
+    position: absolute;
+    padding: 7px 10px;
+    top: 25px;
+    right: 25px;
+    border-radius: 12px;
+    color: #ffffff;
+    background: #d0d0d0;
+    cursor: pointer;
+    &:hover {
+      background: #c95b5b;
+    }
+  `,
+  backdrop: css`
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
   `,
 }
 
