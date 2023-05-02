@@ -33,6 +33,7 @@ const S = {
     line-height: 16px;
     color: #ff0000;
     padding-bottom: 15px;
+    text-transform: capitalize;
   `,
   title: styled.h3`
     ${styles.montserrat}

@@ -71,7 +71,7 @@ export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
       <S.pagination
         current={page}
         onChange={onChange}
-        total={40}
+        total={66}
         pageSize={18}
       />
     </S.container>

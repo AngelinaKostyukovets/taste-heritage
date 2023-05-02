@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": [
     "eslint:recommended",
@@ -44,6 +45,7 @@
         }
       }
     ],
+    "jsx-a11y/click-events-have-key-events": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
@@ -51,6 +53,7 @@
         "optionalDependencies": false,
         "peerDependencies": false
       }
-    ]
+    ],
+    "arrow-body-style": 0
   }
 }

@@ -46,6 +46,19 @@ const S = {
       cursor: pointer;
     }
   `,
+  auth: styled.div`
+    display: block;
+    color: ${({ theme }) => theme.colors.text};
+    border-left: 1px solid black;
+    padding: 17px 50px;
+    position: relative;
+    transition: 0.3s;
+    &:hover {
+      transition: 0.3s;
+      background: #c95b5b;
+      cursor: pointer;
+    }
+  `,
 }
 
 export default S

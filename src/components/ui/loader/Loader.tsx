@@ -1,4 +1,3 @@
-import { LoadingOutlined } from '@ant-design/icons'
 import { Space } from 'antd'
 import S from './Loader.styled'
 
