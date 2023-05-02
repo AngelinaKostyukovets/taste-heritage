@@ -3,24 +3,23 @@ import * as Yup from 'yup'
 export default function validationSchema() {
   return Yup.object().shape({
     name: Yup.string()
-      .required('First name is required')
-      .min(3, 'First name must be at least 3 characters')
-      .max(20, 'First name must not exceed 20 characters'),
+      .required('Введите имя')
+      .min(2, 'Имя должно состоять не менее чем из 2 символов')
+      .max(20, 'Имя не должно превышать 20 символов'),
     lastName: Yup.string()
-      .required('Last Name is required')
-      .min(3, 'Last Name must be at least 3 characters')
-      .max(20, 'Last Name must not exceed 20 characters'),
-    email: Yup.string().required('Email is required').email('Email is invalid'),
+      .required('Введите фамилию')
+      .min(3, 'Фамилия должна состоять не менее чем из 3 символов')
+      .max(20, 'Фамилия не должна превышать 20 символов'),
+    email: Yup.string()
+      .required('Введите электронную почту')
+      .email('Электронная почта неверна'),
     password: Yup.string()
-      .required('Password is required')
-      .min(8, 'Password must be at least 8 characters')
+      .required('Введите пароль')
+      .min(8, 'Пароль должен состоять не менее чем из 8 символов')
       .matches(
         /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/,
-        'Password must be at least one uppercase letter, one lowercase letter and one number.'
+        'Пароль должен состоять по крайней мере из одной заглавной буквы, одной строчной буквы и одной цифры.'
       )
-      .max(40, 'Password must not exceed 40 characters'),
-    // confirmPassword: Yup.string()
-    // .required('Repeat Password is required')
-    // .oneOf([Yup.ref('password'), null], 'Repeat Password does not match'),
+      .max(40, 'Пароль не должен превышать 40 символов'),
   })
 }

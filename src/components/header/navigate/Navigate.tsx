@@ -3,6 +3,7 @@ import S from './Navigate.styled'
 import MenuDropdown from './menuDropdown/MenuDropdown'
 import { useAppDispatch } from '../../../store/store'
 import { recipesActions } from '../../../store/recipes/recipesSlice'
+import { authActions } from '../../../store/auth/authSlice'
 // import useDebounce from '../../../hooks/useDebounce'
 import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
 import { useAuth } from '../../../hooks/useAuth'
@@ -89,9 +90,16 @@ export default function Navigate() {
             />
           </li>
           {isAuth ? (
-            <li>
-              <S.link to="/account">{userFI}</S.link>
-            </li>
+            <>
+              <li>
+                <S.link to="/account">{userFI}</S.link>
+              </li>
+              <li>
+                <S.auth onClick={() => dispatch(authActions.removeUser())}>
+                  Выйти
+                </S.auth>
+              </li>
+            </>
           ) : (
             <>
               <li>

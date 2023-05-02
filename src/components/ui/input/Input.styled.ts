@@ -1,9 +1,10 @@
-import { Field } from 'formik'
+import { ErrorMessage, Field } from 'formik'
 import styled from 'styled-components'
 import { styles } from '../../globalStyle'
 
 const S = {
   container: styled.div`
+    margin-bottom: 8px;
     &.acceptTerms {
       display: flex;
       align-items: center;
@@ -23,7 +24,12 @@ const S = {
     border: none;
     padding: 15px;
     width: 100%;
-    margin-bottom: 8px;
+    &:focus {
+      outline: none;
+    }
+  `,
+  error: styled(ErrorMessage)`
+    color: red;
   `,
 }
 

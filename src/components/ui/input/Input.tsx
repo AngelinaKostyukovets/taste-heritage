@@ -1,4 +1,3 @@
-import { ErrorMessage } from 'formik'
 import S from './Input.styled'
 
 interface FormInputProps {
@@ -20,7 +19,6 @@ export default function Input({
 }: FormInputProps) {
   return (
     <S.container className={`form-group ${name}`}>
-      {/* <label htmlFor={idInput}>{textLabel}</label> */}
       <S.input
         name={name}
         type={typeInput}
@@ -29,7 +27,7 @@ export default function Input({
         className={`form-control${errors && touched ? ' is-invalid' : ''}`}
       />
       {name === 'acceptTerms' && <label htmlFor={idInput}>{text}</label>}
-      <ErrorMessage name={name} component="div" className="invalid-feedback" />
+      <S.error name={name} component="div" className="invalid-feedback" />
     </S.container>
   )
 }

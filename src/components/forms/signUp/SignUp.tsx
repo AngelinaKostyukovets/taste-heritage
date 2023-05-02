@@ -46,6 +46,7 @@ export default function SignUp({ onClick, onSwitch }: SignUpProps) {
         updateProfile(user, {
           displayName: userData,
         })
+        onClick((prev) => !prev)
         navigate('/account')
       })
       .catch(console.error)

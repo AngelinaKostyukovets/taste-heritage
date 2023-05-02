@@ -35,6 +35,7 @@ export default function Login({ onClick, onSwitch }: LoginProps) {
             token: user.refreshToken,
           })
         )
+        onClick((prev) => !prev)
         navigate('/account')
       })
       .catch(() => console.log('error'))
@@ -88,7 +89,7 @@ export default function Login({ onClick, onSwitch }: LoginProps) {
           )}
         </Formik>
         <S.signUp>
-          Нет аккаунта?
+          Нет аккаунта?{' '}
           <span
             role="link"
             tabIndex={0}
