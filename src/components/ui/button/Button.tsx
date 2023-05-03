@@ -5,7 +5,6 @@ interface ButtonProps {
   classBtn?: string
   onClick?: () => void
   typeButton: 'button' | 'submit' | 'reset' | undefined
-  isValid?: boolean
 }
 
 export default function Button({
@@ -13,7 +12,6 @@ export default function Button({
   classBtn,
   onClick,
   typeButton,
-  isValid = false,
 }: ButtonProps) {
   return (
     <S.button type={typeButton} onClick={onClick} className={classBtn}>

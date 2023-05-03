@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-regular-svg-icons'
 import { faBowlRice } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -19,11 +18,6 @@ export default function RecipeItem() {
   const loading = useAppSelector((state) => state.recipe.loading)
   const { id } = useParams()
   const recipeId = +(id ?? 0)
-  const upperType = () => {
-    const firstLetter = recipe?.typeDish.charAt(0).toUpperCase()
-    const lowerText = recipe?.typeDish.slice(1)
-    // return firstLetter + lowerText
-  }
 
   useEffect(() => {
     if (recipeId) {

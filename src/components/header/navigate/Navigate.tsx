@@ -10,7 +10,13 @@ import SignUp from '../../forms/signUp/SignUp'
 import Login from '../../forms/login/Login'
 
 export default function Navigate() {
-  const { setSearchRecipes, setTypeDish, setProductDish } = useFilterRecipes()
+  const {
+    setSearchRecipes,
+    setTypeDish,
+    setProductDish,
+    showMenu,
+    setShowMenu,
+  } = useFilterRecipes()
   const dispatch = useAppDispatch()
   const navigate = useNavigate()
   const [search, setSearch] = useState<string>('')
@@ -30,12 +36,13 @@ export default function Navigate() {
       setTypeDish('')
       setSearchRecipes(search)
       setSearch('')
+      setShowMenu((prev) => !prev)
     }
   }
 
   return (
     <>
-      <S.container>
+      <S.container className={showMenu ? '' : 'hide'}>
         <S.menu
           onClick={() => {
             setTypeDish('')
@@ -95,10 +102,20 @@ export default function Navigate() {
           {isAuth ? (
             <>
               <li>
-                <S.link to="/account">{userFI}</S.link>
+                <S.link
+                  onClick={() => setShowMenu((prev) => !prev)}
+                  to="/account"
+                >
+                  {userFI}
+                </S.link>
               </li>
               <li>
-                <S.auth onClick={() => dispatch(authActions.removeUser())}>
+                <S.auth
+                  onClick={() => {
+                    dispatch(authActions.removeUser())
+                    setShowMenu((prev) => !prev)
+                  }}
+                >
                   Выйти
                 </S.auth>
               </li>
@@ -111,6 +128,7 @@ export default function Navigate() {
                     event.preventDefault()
                     event.stopPropagation()
                     setLogin((prev) => !prev)
+                    setShowMenu((prev) => !prev)
                   }}
                 >
                   Войти
@@ -122,6 +140,7 @@ export default function Navigate() {
                     event.preventDefault()
                     event.stopPropagation()
                     setSignUp((prev) => !prev)
+                    setShowMenu((prev) => !prev)
                   }}
                 >
                   Регистрация

@@ -13,6 +13,11 @@ const S = {
     border: 1px solid black;
     border-bottom: none;
     background-color: ${({ theme }) => theme.colors.background};
+    @media (max-width: 768px) {
+      position: sticky;
+      margin-top: 15px;
+      border: none;
+    }
   `,
   linkDropdown: styled(NavLink)`
     color: ${({ theme }) => theme.colors.text};
@@ -22,6 +27,9 @@ const S = {
     border-bottom: 1px solid black;
     transition: 0.3s;
     position: relative;
+    @media (max-width: 768px) {
+      border: none;
+    }
     &.menu-item {
       padding: 16px 40px;
       border-bottom: none;
@@ -29,11 +37,18 @@ const S = {
       @media (max-width: 1200px) {
         padding: 15px 15px;
       }
+      @media (max-width: 768px) {
+        border: none;
+        border-bottom: 1px solid black;
+      }
     }
     &:hover {
       cursor: pointer;
       transition: 0.3s;
       background: #c95b5b;
+      @media (max-width: 768px) {
+        background: none;
+      }
     }
     &:hover > ul {
       display: inherit;

@@ -19,7 +19,7 @@ export default function MenuDropdown({
   setFilter,
   setClear,
 }: MenuDropdownProps) {
-  const { setSearchRecipes } = useFilterRecipes()
+  const { setSearchRecipes, setShowMenu } = useFilterRecipes()
   return (
     <li>
       <S.linkDropdown className="menu-item" to={`${menuAdress}`}>
@@ -35,6 +35,7 @@ export default function MenuDropdown({
                   e.stopPropagation()
                   setSearchRecipes('')
                   setClear('')
+                  setShowMenu((prev) => !prev)
                   setFilter(item)
                 }}
                 to={`${listAdresses[index]}`}

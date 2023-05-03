@@ -6,7 +6,7 @@ import { GlobalStyle } from './globalStyle'
 import Home from './pages/home/Home'
 import RecipeItem from './pages/recipeItem/RecipeItem'
 import Recipes from './pages/recipes/Recipes'
-import { darkTheme, lightTheme } from '../theme/theme'
+import { lightTheme } from '../theme/theme'
 import Header from './header/Header'
 import { SortRecipesContext } from '../hooks/useFilterRecipes'
 import Footer from './footer/Footer'
@@ -18,6 +18,7 @@ function App() {
   const [type, setType] = useState<string>('')
   const [product, setProduct] = useState<string>('')
   const [search, setSearch] = useState<string>('')
+  const [show, setShow] = useState<boolean>(false)
   const { isAuth } = useAuth()
   const sortValue = useMemo(
     () => ({
@@ -29,8 +30,10 @@ function App() {
       setProductDish: setProduct,
       searchRecipes: search,
       setSearchRecipes: setSearch,
+      showMenu: show,
+      setShowMenu: setShow,
     }),
-    [sort, type, product, search]
+    [sort, type, product, search, show]
   )
   return (
     <ThemeProvider theme={lightTheme}>
