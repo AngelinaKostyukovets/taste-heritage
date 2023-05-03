@@ -4,12 +4,18 @@ import { styles } from '../../globalStyle'
 const S = {
   container: styled.div`
     ${styles.container};
+    @media (max-width: 1200px) {
+      padding: 0 20px;
+    }
   `,
   user: styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 35px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   `,
   fio: styled.div`
     display: flex;
@@ -20,10 +26,18 @@ const S = {
       font-size: 26px;
       line-height: 32px;
       padding-left: 20px;
+      @media (max-width: 1200px) {
+        font-size: 20px;
+        line-height: 26px;
+      }
     }
   `,
   myData: styled.div`
     display: flex;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
   `,
   recipe: styled.div`
     ${styles.comfortaa};

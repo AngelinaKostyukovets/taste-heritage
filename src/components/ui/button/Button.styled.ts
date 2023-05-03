@@ -19,6 +19,9 @@ const S = {
     &.submit {
       margin-top: 40px;
       width: 100%;
+      @media (max-width: 768px) {
+        margin-top: 10px;
+      }
     }
     &.button {
       padding: 16px 30px;

@@ -1,5 +1,6 @@
 import { DownOutlined } from '@ant-design/icons'
 import S from './MenuDropdown.styled'
+import { useFilterRecipes } from '../../../../hooks/useFilterRecipes'
 
 interface MenuDropdownProps {
   nameMenu: string
@@ -18,6 +19,7 @@ export default function MenuDropdown({
   setFilter,
   setClear,
 }: MenuDropdownProps) {
+  const { setSearchRecipes } = useFilterRecipes()
   return (
     <li>
       <S.linkDropdown className="menu-item" to={`${menuAdress}`}>
@@ -31,6 +33,7 @@ export default function MenuDropdown({
               <S.linkDropdown
                 onClick={(e) => {
                   e.stopPropagation()
+                  setSearchRecipes('')
                   setClear('')
                   setFilter(item)
                 }}

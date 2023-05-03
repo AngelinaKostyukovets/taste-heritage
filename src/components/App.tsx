@@ -17,6 +17,7 @@ function App() {
   const [sort, setSort] = useState<string>('likes')
   const [type, setType] = useState<string>('')
   const [product, setProduct] = useState<string>('')
+  const [search, setSearch] = useState<string>('')
   const { isAuth } = useAuth()
   const sortValue = useMemo(
     () => ({
@@ -26,8 +27,10 @@ function App() {
       setTypeDish: setType,
       productDish: product,
       setProductDish: setProduct,
+      searchRecipes: search,
+      setSearchRecipes: setSearch,
     }),
-    [sort, type, product]
+    [sort, type, product, search]
   )
   return (
     <ThemeProvider theme={lightTheme}>
@@ -42,6 +45,12 @@ function App() {
             <Route path="/account" element={<Navigate to="/" />} />
           )}
           <Route path="/recipes/:id" element={<RecipeItem />} />
+          <Route
+            path="/recipes/search"
+            element={
+              <Recipes redTitle="Результаты поиска" otherTitle={search} />
+            }
+          />
           <Route
             path="/typeDishes"
             element={<Recipes redTitle="Типы" otherTitle="блюд" />}

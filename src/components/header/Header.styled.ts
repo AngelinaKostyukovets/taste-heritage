@@ -11,6 +11,15 @@ const S = {
     font-size: 70px;
     line-height: 90px;
     padding: 15px 0;
+    @media (max-width: 1200px) {
+      font-size: 50px;
+      line-height: 70px;
+    }
+    @media (max-width: 768px) {
+      font-size: 30px;
+      line-height: 50px;
+      padding: 10px 0;
+    }
   `,
 }
 

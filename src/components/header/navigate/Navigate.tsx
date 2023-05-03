@@ -1,27 +1,22 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import S from './Navigate.styled'
 import MenuDropdown from './menuDropdown/MenuDropdown'
 import { useAppDispatch } from '../../../store/store'
-import { recipesActions } from '../../../store/recipes/recipesSlice'
 import { authActions } from '../../../store/auth/authSlice'
-// import useDebounce from '../../../hooks/useDebounce'
 import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
 import { useAuth } from '../../../hooks/useAuth'
 import SignUp from '../../forms/signUp/SignUp'
 import Login from '../../forms/login/Login'
 
 export default function Navigate() {
-  const { sortRecipes, setTypeDish, setProductDish } = useFilterRecipes()
+  const { setSearchRecipes, setTypeDish, setProductDish } = useFilterRecipes()
   const dispatch = useAppDispatch()
+  const navigate = useNavigate()
   const [search, setSearch] = useState<string>('')
   const [signUp, setSignUp] = useState<boolean>(false)
   const [login, setLogin] = useState<boolean>(false)
-  // const debounceSearch = useDebounce(search, 1000)
   const { isAuth, userFI } = useAuth()
-
-  const fetchData = () => {
-    dispatch(recipesActions.getRecipesList({ sortRecipes, search }))
-  }
 
   const onChangeSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = event.target.value
@@ -29,7 +24,13 @@ export default function Navigate() {
   }
 
   const onKeyDownSearch = (event: React.KeyboardEvent<HTMLElement>) => {
-    if (event.code === 'Enter') fetchData()
+    if (event.code === 'Enter') {
+      navigate('/recipes/search')
+      setProductDish('')
+      setTypeDish('')
+      setSearchRecipes(search)
+      setSearch('')
+    }
   }
 
   return (
@@ -39,6 +40,7 @@ export default function Navigate() {
           onClick={() => {
             setTypeDish('')
             setProductDish('')
+            setSearchRecipes('')
           }}
         >
           <MenuDropdown
@@ -87,6 +89,7 @@ export default function Navigate() {
               onKeyDown={onKeyDownSearch}
               type="text"
               placeholder="Поиск"
+              onClick={(event) => event.stopPropagation()}
             />
           </li>
           {isAuth ? (
@@ -106,6 +109,7 @@ export default function Navigate() {
                 <S.auth
                   onClick={(event) => {
                     event.preventDefault()
+                    event.stopPropagation()
                     setLogin((prev) => !prev)
                   }}
                 >
@@ -116,6 +120,7 @@ export default function Navigate() {
                 <S.auth
                   onClick={(event) => {
                     event.preventDefault()
+                    event.stopPropagation()
                     setSignUp((prev) => !prev)
                   }}
                 >

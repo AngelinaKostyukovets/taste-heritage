@@ -15,10 +15,6 @@ export default function RecipesFilter() {
         style={{ width: '140px' }}
         onChange={onChange}
         options={[
-          // {
-          //   value: 'id',
-          //   label: 'Релевантные',
-          // },
           {
             value: 'likes',
             label: 'Популярные',

@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { Space } from 'antd'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-regular-svg-icons'
+import { faBowlRice } from '@fortawesome/free-solid-svg-icons'
 import {
   ClockCircleOutlined,
   CommentOutlined,
@@ -45,7 +47,10 @@ export default function RecipeItem() {
               </S.space>
               {recipe.time}
             </S.time>
-            <S.portions>{recipe.portions}</S.portions>
+            <S.portions>
+              <S.icon icon={faBowlRice} style={{ color: '#000000' }} />{' '}
+              {recipe.portions}
+            </S.portions>
           </S.timeContainer>
           <S.shortContent>
             <S.shortImgContainer>
@@ -74,7 +79,10 @@ export default function RecipeItem() {
               </S.space>
               {recipe.comments.length}
             </div>
-            <div>Избранное</div>
+            <div>
+              <S.icon icon={faBookmark} style={{ color: '#000000' }} />{' '}
+              Избранное
+            </div>
           </S.likesContainer>
 
           <S.titleSteps>Пошаговый рецепт приготовления</S.titleSteps>

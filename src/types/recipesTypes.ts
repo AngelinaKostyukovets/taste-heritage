@@ -28,7 +28,7 @@ export interface RecipesType {
 
 export interface RecipesFilterType {
   sortRecipes: string
-  search?: string
+  searchRecipes?: string
   limit?: number
   page?: number
   typeDish?: string

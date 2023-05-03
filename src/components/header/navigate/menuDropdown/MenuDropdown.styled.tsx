@@ -23,9 +23,12 @@ const S = {
     transition: 0.3s;
     position: relative;
     &.menu-item {
-      padding: 16px 50px;
+      padding: 16px 40px;
       border-bottom: none;
       border-right: 1px solid black;
+      @media (max-width: 1200px) {
+        padding: 15px 15px;
+      }
     }
     &:hover {
       cursor: pointer;
