@@ -19,7 +19,8 @@ export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
   const loading = useAppSelector((state) => state.recipes.loading)
   const dispatch = useAppDispatch()
   const [page, setPage] = useState<number>(1)
-  const { sortRecipes, typeDish, productDish } = useFilterRecipes()
+  const { sortRecipes, typeDish, productDish, searchRecipes } =
+    useFilterRecipes()
 
   const fetchData = () => {
     dispatch(
@@ -29,6 +30,7 @@ export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
         page,
         typeDish,
         productDish,
+        searchRecipes,
       })
     )
   }
@@ -43,7 +45,7 @@ export default function Recipes({ redTitle, otherTitle }: RecipesProps) {
 
   useEffect(() => {
     fetchData()
-  }, [page, typeDish, productDish, sortRecipes])
+  }, [page, typeDish, productDish, sortRecipes, searchRecipes])
 
   return (
     <S.container>

@@ -1,27 +1,28 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import S from './Navigate.styled'
 import MenuDropdown from './menuDropdown/MenuDropdown'
 import { useAppDispatch } from '../../../store/store'
-import { recipesActions } from '../../../store/recipes/recipesSlice'
 import { authActions } from '../../../store/auth/authSlice'
-// import useDebounce from '../../../hooks/useDebounce'
 import { useFilterRecipes } from '../../../hooks/useFilterRecipes'
 import { useAuth } from '../../../hooks/useAuth'
 import SignUp from '../../forms/signUp/SignUp'
 import Login from '../../forms/login/Login'
 
 export default function Navigate() {
-  const { sortRecipes, setTypeDish, setProductDish } = useFilterRecipes()
+  const {
+    setSearchRecipes,
+    setTypeDish,
+    setProductDish,
+    showMenu,
+    setShowMenu,
+  } = useFilterRecipes()
   const dispatch = useAppDispatch()
+  const navigate = useNavigate()
   const [search, setSearch] = useState<string>('')
   const [signUp, setSignUp] = useState<boolean>(false)
   const [login, setLogin] = useState<boolean>(false)
-  // const debounceSearch = useDebounce(search, 1000)
   const { isAuth, userFI } = useAuth()
-
-  const fetchData = () => {
-    dispatch(recipesActions.getRecipesList({ sortRecipes, search }))
-  }
 
   const onChangeSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = event.target.value
@@ -29,16 +30,24 @@ export default function Navigate() {
   }
 
   const onKeyDownSearch = (event: React.KeyboardEvent<HTMLElement>) => {
-    if (event.code === 'Enter') fetchData()
+    if (event.code === 'Enter') {
+      navigate('/recipes/search')
+      setProductDish('')
+      setTypeDish('')
+      setSearchRecipes(search)
+      setSearch('')
+      setShowMenu((prev) => !prev)
+    }
   }
 
   return (
     <>
-      <S.container>
+      <S.container className={showMenu ? '' : 'hide'}>
         <S.menu
           onClick={() => {
             setTypeDish('')
             setProductDish('')
+            setSearchRecipes('')
           }}
         >
           <MenuDropdown
@@ -87,15 +96,26 @@ export default function Navigate() {
               onKeyDown={onKeyDownSearch}
               type="text"
               placeholder="Поиск"
+              onClick={(event) => event.stopPropagation()}
             />
           </li>
           {isAuth ? (
             <>
               <li>
-                <S.link to="/account">{userFI}</S.link>
+                <S.link
+                  onClick={() => setShowMenu((prev) => !prev)}
+                  to="/account"
+                >
+                  {userFI}
+                </S.link>
               </li>
               <li>
-                <S.auth onClick={() => dispatch(authActions.removeUser())}>
+                <S.auth
+                  onClick={() => {
+                    dispatch(authActions.removeUser())
+                    setShowMenu((prev) => !prev)
+                  }}
+                >
                   Выйти
                 </S.auth>
               </li>
@@ -106,7 +126,9 @@ export default function Navigate() {
                 <S.auth
                   onClick={(event) => {
                     event.preventDefault()
+                    event.stopPropagation()
                     setLogin((prev) => !prev)
+                    setShowMenu((prev) => !prev)
                   }}
                 >
                   Войти
@@ -116,7 +138,9 @@ export default function Navigate() {
                 <S.auth
                   onClick={(event) => {
                     event.preventDefault()
+                    event.stopPropagation()
                     setSignUp((prev) => !prev)
+                    setShowMenu((prev) => !prev)
                   }}
                 >
                   Регистрация

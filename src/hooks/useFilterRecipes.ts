@@ -7,6 +7,10 @@ interface FilterRecipesContextProps {
   setTypeDish: React.Dispatch<React.SetStateAction<string>>
   productDish: string
   setProductDish: React.Dispatch<React.SetStateAction<string>>
+  searchRecipes: string
+  setSearchRecipes: React.Dispatch<React.SetStateAction<string>>
+  showMenu: boolean
+  setShowMenu: React.Dispatch<React.SetStateAction<boolean>>
 }
 
 export const SortRecipesContext = createContext({} as FilterRecipesContextProps)

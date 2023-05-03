@@ -4,7 +4,6 @@ import { styles } from '../../../globalStyle'
 
 const S = {
   container: styled.div`
-    max-width: 446px;
     border-radius: ${styles.radius};
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
@@ -40,6 +39,9 @@ const S = {
     font-size: 24px;
     line-height: 22px;
     padding-bottom: 15px;
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
   `,
   space: styled(Space)`
     position: absolute;

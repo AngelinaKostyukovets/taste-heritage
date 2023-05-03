@@ -12,7 +12,6 @@ export const styles = {
   `,
   formContainer: css`
     position: fixed;
-
     max-width: 540px;
     width: 100%;
     left: 50%;
@@ -21,6 +20,12 @@ export const styles = {
     background-color: #ffffff;
     z-index: 2;
     border-radius: 12px;
+    @media (max-width: 1200px) {
+      max-width: 440px;
+    }
+    @media (max-width: 768px) {
+      max-width: 340px;
+    }
   `,
   formTitle: css`
     font-weight: 700;
@@ -75,6 +80,11 @@ export const styles = {
     cursor: pointer;
     &:hover {
       background: #c95b5b;
+    }
+
+    @media (max-width: 768px) {
+      top: 10px;
+      right: 10px;
     }
   `,
   backdrop: css`
